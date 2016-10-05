@@ -1,0 +1,246 @@
+{
+    "chem":[
+	    {
+		"id":"chem_contraption",
+		"title":"Contraption",
+		"body":"Science always looks complex from outside. But when we venture into its core, we realize it just a succession of the simple, interrelated and small concepts which formed into a complex one. Here, at Contraption, we call upon the participants to apply these small concepts to give birth to a chemically functional robot. It should be able to perform basic and specific functions applicable to our daily lives."
+	    },
+	    {
+		"id":"chem_breakdown",
+		"title":"Chemical Breakdown",
+		"body":"The flagship series of discipline specific quizzes, here we test the engineering knowledge and basic concepts of the teams as that will be the deciding factor at the end of the day: which team is better than the best and gets those concepts right into place. This popular series has seen an amazing participation in almost all the fields, especially Chemical Engineering."
+	    },
+	    {
+		"id":"chem_ind",
+		"title":"Industry Defined Problem",
+		"body":"IDP, where the finest minds of chemical engineering come together to solve some of the most mindboggling problems by india’s premier industries. The previous editions had industries like MRPL, MCF provide very challenging problem statements. This edition we intend to go one step further."
+	    }
+    ],
+
+    "comp":[
+	    {
+		"id":"comps_inscription",
+		"title":"Inscription",
+		"body":"An international online programming contest with teams from Microsoft, Yahoo and Stanford as previous participants is sure to attract thousands of coders. Participate in this event and prove your talent in designing efficient algorithms ad writing working codes."
+	    },
+	    {
+		"id":"comps_ectf",
+		"title":"ECTF",
+		"body":"ECTF is a jeopardy style Capture the Flag event conducted online. Here the participant is evaluated on his/her ability to detect and manipulate security flaws and exploits. ECTF provides a way to effectively merge your theoretical and applied aspects of computer science through cryptography, reverse engineering and web application based challenges."
+	    },
+	    {
+		"id":"comps_kk",
+		"title":"Kode Kombat",
+		"body":"Kode Komabt is a competition mixed with fun and fervor that takes you through three rounds of an unexpected package of coding, decoding and creativity. Thorough analysis of the problem, adept strategizing and proficient translation to code is all you need to combat the other coders. "
+	    },
+	    {
+		"id":"comps_marathon",
+		"title":"Marathon",
+		"body":"For those of you who love computer science but has inadequate knowledge, Marathon is the go-to event. It tests your teamwork, your ability to solve tricky yet simple computer science problems and also your capability to absorb the information and implement them on a real world scale."
+	    },
+	    {
+		"id":"comps_rectify",
+		"title":"Rectify",
+		"body":"A working knowledge of C++ or C is all that the participants need to compete in Rectify. A sound background in these programming languages will serve as your sword as you debug programs and establish your skill in logically analyzing a given code."
+	    },
+	    {
+		"id":"comps_synth",
+		"title":"SynthEssence",
+		"body":"A once in a lifetime opportunity to experience the essence of synthesizing sense out of data. Through SynthEssence, Engineer is on the search for the data scientist in each participant as the teams get challenged on proposing, implementing, and presenting the use case."
+	    }
+    ],
+    
+    "biz":[
+	    {
+		"id":"biz_ad",
+		"title":"Ad-venture",
+		"body":"“Promise, large promise, is the soul of an advertisement”-Samuel Johnson. On these lines, this event “Ad-venture” ventures out to pick out one of the most promising ad-campaigns where the toughest competition exists when it comes to the ad industry, the crux of the contest being to look out for one’s talent of embedding ideas into media."
+	    },
+	    {
+		"id":"biz_ms",
+		"title":"Mock-Stock",
+		"body":"The big world is never complete without the perfect doze of the Dalal Street. And doing justice to this fact is what this contest banks upon. The perfect simulation of the dynamic schedule of the stock market makes the smart folks react their brains out for all the 4 days of Engineer."
+	    }
+    ],
+
+    "mining":[
+	    {
+		"id":"min_mb",
+		"title":"Mind Bend",
+		"body":"A quiz exclusively designed to “dig out” the treasure of knowledge acquired in the wide arena of mining and its related applications."
+	    },
+	    {
+		"id":"min_sub",
+		"title":"Substantivo",
+		"body":"Basically, a surveying based events where we try to create awareness about the role of surveying in the exploration projects by testing the logical ability of the contestants. We will be elaborating the levels by testing the conceptual and the practical clarity of surveying."
+	    },
+	    {
+		"id":"min_mt",
+		"title":"Mining Tycoon",
+		"body":"This event takes you through a whole roundabout through an amazing & unique relationship between Mining & Management, which dates back to the Industrial Revolution. Contestants are put to analyze a certain case, appreciate the interdependence of the two and come up with the best possible solution surpassing all exceptional cases .The most feasible solution will be rewarded."
+	    },
+	    {
+		"id":"min_tm",
+		"title":"Tech Mining",
+		"body":"Technology has gone a mile ahead in the recent times, by linking software to the core fields. Similar relation exists between Mining application and software which took birth in the form of simulation analysis or simulation software. This event celebrates this relation in the form of workshop, which aims at making students aware of the trends and the working of simulation software. It encourages the student’s mind to the field of software analysis and its applications in mining."
+	    }
+    ],
+
+    "sce":[
+	    {
+		"id":"sce_lw",
+		"title":"Last Word",
+		"body":"Sit back and watch in awe as eminent personalities from diverse fields discuss issues pertaining to education, entrepreneurship, and social responsibility of engineers. The panelists and the students get to exchange a good amount of ideas in the final open session on topic likes Government funding for higher education, Social Responsibility, The Indian Government’s Involvement in public higher education and many more. Media coverage (national dailies and television channels) of the event is a high possibility and the sponsors can attain nationwide publicity."
+	    },
+	    {
+		"id":"sce_uw",
+		"title":"Umbrealla Walk",
+		"body":"Engineer is premiering Umbrella Walk which, as the name suggests, is a morning walk with an umbrella. Though the act is as simple as it can get, it is embedded with a deep meaning. It is Engineer’s medallion for showing support to a current socially relevant issue, thereby instilling in all empathy to our fellow beings. The sponsors will be highly deemed for being the helping hand to one of the flagship events of Engineer-16. "
+	    },
+	    {
+		"id":"sce_sparsh",
+		"title":"Sparsh",
+		"body":"Engineer is creating a shift in consciousness by organizing a tree plantation drive around NITK under the name of Sparsh. Not only is this event an initiative for a greener campus, but also a silent protest against deforestation and the increasing hazardous nature of pollution. Sparsh provides an open platform to all the nature lovers out there to volunteer for planting saplings and giving them the necessary care. A month before the event, the departments of the college will be invited to plant saplings and tend to them. "
+	    },
+	    {
+		"id":"sce_sl",
+		"title":"Sky Lanterns",
+		"body":"The phenomenal parade of lights is definitely a treat to the eye of the beholders. Illuminating the darkest of nights and proving that light can always be found during dark times, Team Engineer sees these sky lanterns as a mark of respect or support to a social movement or cause. Last year, the lanterns were released as a tribute to the visionary, Dr.A.P.J.Abdul Kalam. "
+	    }
+    ],
+
+    "astro":[
+	    {
+		"id":"astro_sn",
+		"title":"Stary Night",
+		"body":"Conducted on the Main Building Terrace, participants are given an opportunity to view the night sky through binoculars and a telescope. They are given a tour of the night sky, with narrations of tales of Greek Heroes of yore and why the constellations were named after them. Make sure you are present to have a chance to look at the rings of Saturn and the craters of the moon through the telescope!"
+	    },
+	    {
+		"id":"astro_sw",
+		"title":"Star Wars",
+		"body":"All the quizzers out there, make sure you don’t miss out on this! With questions related to Astronomy, Astrophysics and the occasional popular culture references, this quiz held every Engineer is one of the flagship events of the committee."
+	    },
+	    {
+		"id":"astro_orbiter",
+		"title":"Orbiter",
+		"body":"This is a flight simulator set up in a room along with a projector screen which has a simulation of flying a space shuttle. Walk into this room anytime during Engineer to try your hand at maneuvering a spacecraft. "
+	    },
+	    {
+		"id":"astro_end",
+		"title":"Endeavour",
+		"body":"In this event, participants are given a problem statement on the spot related to astronomy/astrophysics and are evaluated on their presence of mind and problem solving skills."
+	    },
+	    {
+		"id":"astro_anta",
+		"title":"Antariksh",
+		"body":"Another flagship event, this is an exhibition set up in a classroom in the Main Building. The working models attract large crowds, the major attraction being the rover ‘Infinity’ and a weighing machine which gives you your weight on different planets. Other exhibits include a Fibonacci Cubes Arrangement and Old Documents of the club recording astronomical observations."
+	    }
+    ],
+
+    "mech":[
+	    {
+		"id":"mech_bh",
+		"title":"Bot Hockey",
+		"body":"Bot Hockey which began as a new event last year, has already won hearts of all bot enthusiasists. Being simple and interesting it consists of 2 bots trying to get a ball into opposite goal posts. This year with an attractive arena and lot of competitors bot hockey is sure to put audience into an amazing experience."
+	    },
+	    {
+		"id":"mech_wf",
+		"title":"Wright Flight",
+		"body":"Captivating aero-enthusiasts from around the country, Wright Flight is an aero-modeling event where you have to build RC planes that can sustain themselves without the need for propulsion and carry out incredible tasks as they cut through the wind."
+	    },
+	    {
+		"id":"mech_velocity",
+		"title":"Velocity",
+		"body":"Who knew an IC Engine race event could be the head turner of Engineer? A challenging track awaits the competitors as they race their cars to victory. The bewitching charm that roaring engines and squealing tires inflict on the spectators as the cars fly down the tracks is the triumph of this event. "
+	    },
+	    {
+		"id":"mech_rw",
+		"title":"Robo Wars",
+		"body":"Robowars is the feature event of Engineer as the unique combo of engineering innovation and technical skill is put to display. The combating robots are indeed stimulating to watch as they showcase surprise attacks, intricate tactical maneuvers and many more amazing strategies. Get ready to witness the ultimate robotic battle of the year."
+	    },
+	    {
+		"id":"mech_pm",
+		"title":"Perfect Machine",
+		"body":"Perfect Machine has essentially been important part of Engineer considering technical skill, innovation that it demands from participants. Robots perform several tasks based on problem statements which gets tougher every round. This year with more interesting tasks Perfect Machine is going to entertain crowd. "
+	    }
+    ],
+
+    "civil":[
+	    {
+		"id":"cv_nirvana",
+		"title":"Nirvana",
+		"body":"In a few years, the world is bound to face an impending energy crisis. Still, we have not been depleted of solutions to emend this distress and pave the way for a sustainable future. Nirvana is the perfect staging area to present your ideas on reducing energy consumption and designing sustainable buildings."
+	    },
+	    {
+		"id":"cv_colossus",
+		"title":"Colossus",
+		"body":"Structures speak of their time and place but forever remain timeless. They project a grand mixture of innovation, analysis and unique identity. Colossus is an opportunity for all the mini engineers out there to come forward and display their skills in designing, modeling and testing structures."
+	    },
+	    {
+		"id":"cv_fantasticity",
+		"title":"Fantasticity",
+		"body":"The world is awaiting a sustainable revolution that will have to take place rapidly and consciously on various domains. Sustainable development is the prime time need and we need to join hands to nurture nature for our future. Fantasticity provides the platform to unfurl your thoughts and actions on the effective utilisation of natural resources and to venture into a quest for renewable energy sources."
+	    }
+    ],
+
+    "meta":[
+	    {
+		"id":"meta_magic",
+		"title":"Meta Magic",
+		"body":"This is a materials expo where you can find materials throw you up in the air. Materials which will stop the strongest from crumpling a bottle. Materials that float in the air or if you just want to taste a frozen banana, come join us at Meta magic."
+	    },
+	    {
+		"id":"meta_sem",
+		"title":"SEM and TEM Expo",
+		"body":" Watch materials in their nano scale. A metal, polymer or even dragon fly wings, watch up close, what they seem like in super high magnification using the most expensive machines on campus."
+	    },
+	    {
+		"id":"meta_cast",
+		"title":"Casting Workshop",
+		"body":"Liquid shiny metal poured into a mould and watch it turn to solid. There is more to it than what meets the eye. Join us at the casting workshop."
+	    },
+	    {
+		"id":"meta_mb",
+		"title":"Mind Bend",
+		"body":"Do you know what material remembers it's shape even after heating it? Or a material which melts when you just touch it? Mind bend is materials committee's flagship event. Come tickle your minds and bend your brains in the world of materials."
+	    }
+    ],
+
+    "tronix":[
+	    {
+		"id":"tronix_symphony",
+		"title":"Symphony",
+		"body":"The flagship event of the committee which draws a huge crowd as well as a large pool of participants, the event requires the participants to come up with a controller built using electronic components which can manipulate the flow of water through an electrically controllable valve and the glowing of lights according to the music being played. Yes, you got it right. In layman words, participants need to make a musical fountain in which water dances to the tunes played with synchronized lighting."
+	    },
+	    {
+		"id":"tronix_trail",
+		"title":"Trailblazer",
+		"body":"The event which pulls a huge participation from the robotics enthusiasts, the participants are required to make an autonomous robot which can traverse through a path using the line following technique and complete the task specified in the problem statement. The team which finishes the task in the shortest time is the winner."
+	    },
+	    {
+		"id":"tronix_waltz",
+		"title":"Waltz",
+		"body":"This event also attracts the robotics enthusiasts wherein they are required to make an autonomous robot capable of traversing through a maze using the wall following techniques and accomplish the task as specified in the problem statement. The team whose robot completes the task successfully in the shortest time is declared the winner."
+	    },
+	    {
+		"id":"tronix_auto",
+		"title":"Automata",
+		"body":"This is the flagship autonomous robotics design competition at Engineer which guarantees to challenge the brain buds of the participants. The teams are required to make a robot which can complete the specified task using a real-time video feed provided by an overhead camera and image processing to traverse through the arena. The team which finishes fastest is declared the winner."
+	    },
+	    {
+		"id":"tronix_sim",
+		"title":"Simplicity",
+		"body":"Convoluted problems, simple solutions, Simplicity is an event that will lead you towards attaining crowning glory while solving problems related to signal processing and its applications. Welcome to a world of higher dimensions, hidden layers and unknown patterns all bound by simple logic."
+	    },
+	    {
+		"id":"tronix_fox",
+		"title":"Fox Hunt",
+		"body":"It is an event on the lines of the traditional English pastime involving the tracking of a fox using trained hounds. In ENGINEER we follow an electronic version of the same wherein the FOX is a radio transmitter and hounds are our communication enthusiasts having a receiver in their hands for tracking down the fox. Everything is made from the scratch and the competition starts after hands on workshop where participants are taught about the basics of communication involved. This event requires zero pre requisites and hence interests a huge lot of communication enthusiasts."
+	    },
+	    {
+		"id":"tronix_trade",
+		"title":"Trade Off",
+		"body":"This event is designed for testing the basic circuit designing skills of the participants using limited resources and logical thinking. It involves a lot of exercise for the brain and hence attracts a great deal of electronics fanatics. The pre requisites include a basic knowledge about the working of electronic components and instruments as well as an understanding about the circuit designing."
+	    }
+    ]
+}

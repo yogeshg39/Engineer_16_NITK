@@ -1,0 +1,25 @@
+<article ng-controller="teamCtrl">
+<div class="container-fluid main-content-container">
+    <div class="row">
+        <div class="col-lg-12 text-center" style="padding:20px !important;">
+            <h1 class="wow slideInDown"><b>MEET  THE  TEAM</b></h1>
+            <hr />
+        </div>
+    </div>
+    <div class="row text-center" style="padding:20px !important;"  ng-repeat="member in members track by $index" ng-if="$index % 3 ==0">
+        <div class="col-lg-4 col-md-4" ng-repeat="i in [$index, $index + 1, $index + 2]">
+            <div ng-if="members[i]!=undefined">
+            <div class="team-img-wrapper">
+                <img class="img-circle img-team wow flipInY" src="images/team/{{::members[i].img}}" />
+                <div class="team-img-hover">
+                    <a ng-href="{{::members[i].fb}}" class="social fb wow flipInX" target="_blank"><i class="fa fa-lg fa-facebook"></i></a>
+                </div>
+            </div>
+            <h4 class="wow fadeInDown"><b ng-bind="members[i].name"></b></h4>
+            <h4 class="wow fadeInUp" ng-bind="members[i].des"></h4>
+            <h5 class="wow fadeInUp" ng-bind="members[i].email"></h5>
+            </div>
+        </div>
+    </div>
+</div>
+</article> 

@@ -1,0 +1,24 @@
+
+<article ng-controller="specialsCtrl">
+    <div class="container-fluid main-content-container">
+        <div class="row" style="background:url('images/bg/workshops.jpg'); background-size:auto 400px;">
+            <div class="col-lg-12 text-center events-pg" style="padding:20px !important; margin-top:20px; height:200px;" ">
+                <h1 class="wow slideInDown "><b>SPECIAL EVENTS</b></h1>
+                
+            </div>
+        </div>
+        <div class="row row-eq-height events-pg ">
+            <div class="col-lg-1 col-md-1 "></div>
+            <div class="col-lg-10 col-md-10 events-pg-car " style="background: white; box-shadow: 0 0 5px #555; margin-top:-100px; margin-left:15px; margin-right:15px; padding:20px !important; ">
+           <div class="row " style="padding:20px !important; " ng-repeat="special in specials ">
+            <div class="col-lg-1 "></div>
+            <div class="col-lg-10 " id="{{::special.id}}">
+                <h4 class="wow fadeInDown "><b ng-bind="special.name "></b></h4>
+                <p ng-bind-html="special.content "></p>
+            </div>
+            <div class="col-lg-1 "></div>
+        </div></div>
+            
+        </div>
+    </div>
+</article>

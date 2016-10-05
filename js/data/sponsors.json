@@ -1,0 +1,43 @@
+{
+    "sponsors": [{
+        "name": "AEQUS",
+        "img":"AEQUS.jpg",
+        "link":""
+    }, {
+        "name": "Cisco",
+        "img":"Cisco-Logos-HD.jpg",
+        "link":""
+    }, {
+        "name": "ICT Healthcare",
+        "img":"ICT-Health-logo.jpg",
+        "link":""
+    }, {
+        "name": "Royal Academy",
+        "img":"Royale%20Academy%20Logo.png",
+        "link":""
+    }, {
+        "name": "State Bank of India",
+        "img":"SBI.png",
+        "link":"https://www.sbi.co.in"
+    }, {
+        "name": "Tata Consultancy Services",
+        "img":"TCS.jpg",
+        "link":""
+    }, {
+        "name": "T.I.M.E(Triumphant Institute of Management Education)",
+        "img":"TIME.jpg",
+        "link":""
+    }, {
+        "name": "Volvo",
+        "img":"Volvo-Logo.png",
+        "link":""
+    }, {
+        "name": "CFAL",
+        "img":"cfal-logo.png",
+        "link":""
+    }, {
+        "name": "SAP Labs",
+        "img":"sap-logo.jpg",
+        "link":""
+    }]
+}

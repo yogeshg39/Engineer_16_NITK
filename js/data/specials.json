@@ -1,0 +1,23 @@
+{
+    "specials": [{
+        "id": "chronus",
+        "name": "Chronus",
+        "img": "chronus.jpg",
+        "content": "The inception of Chronus is the direct outcome of Team Engineer’s zeal to set new limits each year. Involving efficient professional display of technological advancement and applications, Chronus is an evident huge entertainer having recorded an amazing 10K footfall in Engineer 2015. For most shows happening for the first time in India, the brand is a terrific attention-grabber of national media both pre and post Engineer.<br/>Previous editions of Chronus saw Laser shows, Pyrotechnics, Laser Man and 3D facade projection (from Russian professionals) among many other shows that thrill the crowd after arduous competitions. This year, we aim at taking it to a whole new level by attracting some more international shows.<br/>The Technites-Chronus Expo is an excellent platform to showcase the endeavour of students and companies in developing the smartest applications and/or prototypes that technology has paved them into. It has received remarkable appreciation each year. Some of the featured showcases have been:<ol><li><strong>Robhatah (NUS Singapore) :</strong> A dynamic display of robots developed by Robhatah team that enliven the viewers with their capabilities</li><li><strong>MIT Media Lab :</strong> Understanding human emotions using computational tools</li><li><strong>Microsoft :</strong> Showcase of Photosynth and Silverlight</li></ol>"
+    }, {
+        "id": "technites",
+        "name": "Technites",
+        "img": "technites.jpg",
+        "content": "As the roaring waves reflect hues of orange at dusk, the magicians of the after dark bring to you, TECHNITES! It is an amalgamation of science, prowess, creativity and entertainment. The exhilarating events vivify the participants after the tiring hours of the day, and thus easily having recorded a footfall of 11K last Engineer. <br/>Some of the most popular events of Technites’15 include Real-life Android Games, Contraption, Ruben’s Tube, Blitzkrieg (our advanced version of LaserTag ), LED Wall and much more.<br/>Since Technites is an absolute result of solely in-house brilliant engineers, the events can be easily customized to promote the sponsor. The impact of a brand being associated with such a plethora of events can be stirring.<br/>Let’s watch the technological extravaganza unfold as it reaches a whole new level this Engineer. Let’s learn, let’s play, lets live. Let’s experience Technites 2016!"
+    }, {
+        "id": "engiconnect",
+        "name": "EngiConnect",
+        "img": "eng-connect.jpg",
+        "content": "'Nothing is as powerful as an idea.'<br/>EngiConnect is a science exhibition plus competition organized for school going and pre - university students to promote innovative scientific ideas. It primarily aims to inculcate creativity and bring technology closer to school students.<br/>Attributing to the exciting prizes and complimentary workshops (on Web Android Apps, RC Aircraft Development etc), Engiconnect '15 witnessed participation from schools from all over Dakshina Kannada & Udupi districts.<br/>We at Engineer, NITK, believe in asking the big questions & augmenting the reality. EngiConnect is an endeavor of this belief.<br/>Come! Be a Scientist!"
+    }, {
+        "id": "arena",
+        "name": "Arena",
+        "img": "arena.jpg",
+        "content": "Arena is a colossal event at Engineer that deep-dyed gaming fans eagerly look forward to. It sees a massive participation from all over the country, evident from the innumerable registrations in Engineer 2015.<br/>You can choose from a wide spectrum of First Person Shooters, Role Playing Games, computerized versions of popular sports & much more. Arena is all about virtual combat clashes, action, intelligence, rapidity & enjoyment at the same time. So, what are you waiting for? Come experience Arena ginger up your avidity for games!"
+    }]
+}

@@ -1,0 +1,55 @@
+<article ng-controller="eventsCtrl">
+    <div class="container-fluid main-content-container">
+        <div class="row" style="background:url('images/bg/workshops.jpg'); background-size:auto 400px;" >
+            <div class="col-lg-12 text-center events-pg" style="padding:20px !important; margin-top:20px; height:200px;"">
+                <h1 class="wow slideInDown"><b>EVENTS</b></h1>
+                
+            </div>
+        </div>
+        <div class="row row-eq-height text-center events-pg">
+            <div class="col-lg-1 col-md-1"></div>
+            <div class="col-lg-10 col-md-10 events-pg-car" style=" margin-top:-100px;">
+                
+                <div id="myCarousel" class="carousel slide eq-height" data-ride="carousel" style="margin-top: 20px;">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators-tabs">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active">CHEM</li>
+                    <li data-target="#myCarousel" data-slide-to="1">COMPS</li>
+                    <li data-target="#myCarousel" data-slide-to="2">BIZ</li>
+                    <li data-target="#myCarousel" data-slide-to="3">MINING</li>
+                    <li data-target="#myCarousel" data-slide-to="4">SCE</li>
+                    <li data-target="#myCarousel" data-slide-to="5">ASTRO</li>
+                    <li data-target="#myCarousel" data-slide-to="6">MECH</li>
+                    <li data-target="#myCarousel" data-slide-to="7">CIVIL</li>
+                    <li data-target="#myCarousel" data-slide-to="8">MATERIALS</li>
+                    <li data-target="#myCarousel" data-slide-to="9">TRONIX</li>
+                </ul>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item" ng-repeat="(key,eventgrp) in events track by $index" ng-class="$index == 0 ? 'active '+key+'SVG' : ''+key+'SVG' " ng-class="true:key">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <ng-include src="'partials/SVG/'+key+'.html'"></ng-include>
+                                </div>
+                                <div class="col-lg-6" style="text-align:justify !important;">
+                                    <h2 class="wow fadeInUp" style="text-align:left !important;"><strong>{{eventTitles[$index]}}</strong></h2>
+                                    <ul class="nav nav-tabs wow slideInUp" role="tablist">
+                                      <li role="presentation" ng-repeat="event in eventgrp track by $index" ng-class="$index == 0 ? 'active' : '' "><a role="tab" data-toggle="tab" href="#{{::event.id}}">{{event.title}}</a></li>
+                                    </ul>
+
+                                    <div class="tab-content">
+                                      <div role="tabpanel" ng-repeat="event in eventgrp track by $index" ng-class="$index == 0 ? 'active' : '' " id="{{::event.id}}" class="tab-pane fade in">
+                                        
+                                        <p>{{event.body}}</p>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-1">
+                </div>
+            </div>
+        </div>
+</article>

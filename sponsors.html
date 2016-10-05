@@ -20,20 +20,12 @@
     <script src="js/jQuery-2.1.4.min.js"></script>
     <script src="js/angular.min.js"></script>
     <script src="js/scripts/ng/app.js"></script>
-    <script src="js/scripts/ng/teamCtrl.js"></script>
+    <script src="js/scripts/ng/sponsorsCtrl.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
     <style>
-    @font-face {
-        font-family: engi;
-        src: url('assets/fonts/spaceage.otf');
-    }
-    body, html {
-        background: #1f1f1f;
-       background-image:url('images/engi-bg.png');
-       background-size:cover;
-    }
+
     </style>
 </head>
 
@@ -44,10 +36,16 @@
         <div id="overlay"></div>
         <!-- Page Content -->
         <div id="page-content-wrapper">
+            <!--topbar-->
+            <section ng-include="'partials/topbar.html'"></section>
+            <!--/#topbar-->
             <!--actual page content-->
-            <section ng-include="'partials/index.html'"></section>
+            <section ng-include="'partials/sponsors.html'"></section>
             <!--/ #actual page content-->
-             </div>
+            <!-- Footer -->
+            <section ng-include="'partials/footer.html'"></section>
+            <!-- /#Footer -->
+        </div>
         <!-- /#page-content-wrapper -->
         <!--modal-->
         <section ng-include="'partials/modal.html'"></section>
