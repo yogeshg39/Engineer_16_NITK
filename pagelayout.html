@@ -30,7 +30,7 @@
     }
     body, html {
         background: #1f1f1f;
-       background-image:url('images/engi-bg.png');
+       background-image:url('images/final_back.png');
        background-size:cover;
     }
     </style>
@@ -44,14 +44,17 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
             
-            EVENTSD
-
+            <section ng-include="'partials/topbar1.html'"></section>
+            <!--/#topbar-->
+            <!--actual page content-->
+            <section ng-include="'partials/team.html'"></section>
+            <!--/ #actual page content-->
+            <!-- Footer -->
+            <section ng-include="'partials/footer.html'"></section>
+            <!-- /#Footer -->
 
         </div>
-        <!-- /#page-content-wrapper -->
-        <!--modal-->
-        <section ng-include="'partials/modal.html'"></section>
-        <!--/ #modal-->
+        
     </div>
     
 </body>

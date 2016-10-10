@@ -181,20 +181,39 @@
     ],
 
     "civil":[
+    	{
+		"id":"architect",
+		"title":"Architect",
+		"body":"Participants are required to prepare models for a predefined problem within a fixed time limit. The models will later be put to test and teams fulfilling the winning criteria in the best way will be declared winners. This event has attracted participants from various colleges and students from all disciplines can give it a shot."
+	    },
 	    {
 		"id":"cv_nirvana",
 		"title":"Nirvana",
-		"body":"In a few years, the world is bound to face an impending energy crisis. Still, we have not been depleted of solutions to emend this distress and pave the way for a sustainable future. Nirvana is the perfect staging area to present your ideas on reducing energy consumption and designing sustainable buildings."
+		"body":"In a few years, the world is bound to face an impending energy crisis. Still, we have not been depleted of solutions to emend this distress and pave the way for a sustainable future. Nirvana is the perfect staging area to present your ideas on reducing energy consumption and designing sustainable buildings.",
+	    "link":"Problem Statement",
+	    "direct":"https://drive.google.com/open?id=0B9boJdznIbrMbzV5WG5SeEhLMzl2QmR3N0prOEExb1lpM0Y4https://drive.google.com/open?id=0B9boJdznIbrMZk15ZXBfRzJZTGlMUENrSjF6YnR5VEQ5Rkt3",
+	    "yes_no":"1"
 	    },
 	    {
 		"id":"cv_colossus",
 		"title":"Colossus",
-		"body":"Structures speak of their time and place but forever remain timeless. They project a grand mixture of innovation, analysis and unique identity. Colossus is an opportunity for all the mini engineers out there to come forward and display their skills in designing, modeling and testing structures."
+		"body":"Structures speak of their time and place but forever remain timeless. They project a grand mixture of innovation, analysis and unique identity. Colossus is an opportunity for all the mini engineers out there to come forward and display their skills in designing, modeling and testing structures.",
+		"link":"Problem Statement",
+	    "direct":"https://drive.google.com/open?id=0B9boJdznIbrMWDJ3T2NnWldzNGRMb3F6VkxmcVpnT056andV",
+	    "yes_no":"1"    
+	    },
+	    {
+	    "id":"mind_bend",
+	    "title":"Mnd Bend",
+	    "body":"With a combination of mind boggling questions, core concepts and some really exciting rounds, Mind Bend is definitely a test of your intellect! Time to prove yourself!"
 	    },
 	    {
 		"id":"cv_fantasticity",
 		"title":"Fantasticity",
-		"body":"The world is awaiting a sustainable revolution that will have to take place rapidly and consciously on various domains. Sustainable development is the prime time need and we need to join hands to nurture nature for our future. Fantasticity provides the platform to unfurl your thoughts and actions on the effective utilisation of natural resources and to venture into a quest for renewable energy sources."
+		"body":"The world is awaiting a sustainable revolution that will have to take place rapidly and consciously on various domains. Sustainable development is the prime time need and we need to join hands to nurture nature for our future. Fantasticity provides the platform to unfurl your thoughts and actions on the effective utilisation of natural resources and to venture into a quest for renewable energy sources.",
+		"link":"Problem Statement",
+	    "direct":"https://drive.google.com/open?id=0B9boJdznIbrMZk15ZXBfRzJZTGlMUENrSjF6YnR5VEQ5Rkt3",
+	    "yes_no":"1"
 	    }
     ],
 
