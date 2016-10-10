@@ -141,27 +141,42 @@
 	    {
 		"id":"mech_bh",
 		"title":"Bot Hockey",
-		"body":"Bot Hockey which began as a new event last year, has already won hearts of all bot enthusiasists. Being simple and interesting it consists of 2 bots trying to get a ball into opposite goal posts. This year with an attractive arena and lot of competitors bot hockey is sure to put audience into an amazing experience."
+		"body":"Bot Hockey which began as a new event last year, has already won hearts of all bot enthusiasists. Being simple and interesting it consists of 2 bots trying to get a ball into opposite goal posts. This year with an attractive arena and lot of competitors bot hockey is sure to put audience into an amazing experience.",
+	    "link":"Problem Statement",
+	    "direct":"https://drive.google.com/open?id=0B7pLVEsfTBunVVJZWHZwX1VlZ2s",
+	    "yes_no":"1"
 	    },
 	    {
 		"id":"mech_wf",
 		"title":"Wright Flight",
-		"body":"Captivating aero-enthusiasts from around the country, Wright Flight is an aero-modeling event where you have to build RC planes that can sustain themselves without the need for propulsion and carry out incredible tasks as they cut through the wind."
+		"body":"Captivating aero-enthusiasts from around the country, Wright Flight is an aero-modeling event where you have to build RC planes that can sustain themselves without the need for propulsion and carry out incredible tasks as they cut through the wind.",
+	    "link":"Problem Statement",
+	    "direct":"https://drive.google.com/open?id=0B7pLVEsfTBunTmJoaklxTzBlZnM",
+	    "yes_no":"1"
 	    },
 	    {
 		"id":"mech_velocity",
 		"title":"Velocity",
-		"body":"Who knew an IC Engine race event could be the head turner of Engineer? A challenging track awaits the competitors as they race their cars to victory. The bewitching charm that roaring engines and squealing tires inflict on the spectators as the cars fly down the tracks is the triumph of this event. "
+		"body":"Who knew an IC Engine race event could be the head turner of Engineer? A challenging track awaits the competitors as they race their cars to victory. The bewitching charm that roaring engines and squealing tires inflict on the spectators as the cars fly down the tracks is the triumph of this event. ",
+	    "link":"Problem Statement",
+	    "direct":"https://drive.google.com/open?id=0B7pLVEsfTBunelRQREpHdEtVLUE",
+	    "yes_no":"1"
 	    },
 	    {
 		"id":"mech_rw",
 		"title":"Robo Wars",
-		"body":"Robowars is the feature event of Engineer as the unique combo of engineering innovation and technical skill is put to display. The combating robots are indeed stimulating to watch as they showcase surprise attacks, intricate tactical maneuvers and many more amazing strategies. Get ready to witness the ultimate robotic battle of the year."
+		"body":"Robowars is the feature event of Engineer as the unique combo of engineering innovation and technical skill is put to display. The combating robots are indeed stimulating to watch as they showcase surprise attacks, intricate tactical maneuvers and many more amazing strategies. Get ready to witness the ultimate robotic battle of the year.",
+	    "link":"Problem Statement",
+	    "direct":"https://drive.google.com/open?id=0B7pLVEsfTBunVExHMHFmNElMSEU",
+	    "yes_no":"1"
 	    },
 	    {
 		"id":"mech_pm",
 		"title":"Perfect Machine",
-		"body":"Perfect Machine has essentially been important part of Engineer considering technical skill, innovation that it demands from participants. Robots perform several tasks based on problem statements which gets tougher every round. This year with more interesting tasks Perfect Machine is going to entertain crowd. "
+		"body":"Perfect Machine has essentially been important part of Engineer considering technical skill, innovation that it demands from participants. Robots perform several tasks based on problem statements which gets tougher every round. This year with more interesting tasks Perfect Machine is going to entertain crowd. ",
+	    "link":"Problem Statement",
+	    "direct":"https://drive.google.com/open?id=0B7pLVEsfTBunN0VPMkRQNl93d3M",
+	    "yes_no":"1"
 	    }
     ],
 
@@ -210,12 +225,19 @@
 	    {
 		"id":"tronix_symphony",
 		"title":"Symphony",
-		"body":"The flagship event of the committee which draws a huge crowd as well as a large pool of participants, the event requires the participants to come up with a controller built using electronic components which can manipulate the flow of water through an electrically controllable valve and the glowing of lights according to the music being played. Yes, you got it right. In layman words, participants need to make a musical fountain in which water dances to the tunes played with synchronized lighting."
-	    },
+		"body":"The flagship event of the committee which draws a huge crowd as well as a large pool of participants, the event requires the participants to come up with a controller built using electronic components which can manipulate the flow of water through an electrically controllable valve and the glowing of lights according to the music being played. Yes, you got it right. In layman words, participants need to make a musical fountain in which water dances to the tunes played with synchronized lighting.",  
+		"link":"Problem Statement",
+	    "direct":"https://drive.google.com/open?id=0B7pLVEsfTBunLTZ6WnpESmhmVGM",
+	    "yes_no":"1"		
+		  },
+	    
 	    {
 		"id":"tronix_trail",
 		"title":"Trailblazer",
-		"body":"The event which pulls a huge participation from the robotics enthusiasts, the participants are required to make an autonomous robot which can traverse through a path using the line following technique and complete the task specified in the problem statement. The team which finishes the task in the shortest time is the winner."
+		"body":"The event which pulls a huge participation from the robotics enthusiasts, the participants are required to make an autonomous robot which can traverse through a path using the line following technique and complete the task specified in the problem statement. The team which finishes the task in the shortest time is the winner.",
+	    "link":"Problem Statement",
+	    "direct":"https://drive.google.com/open?id=0B7pLVEsfTBunQ1p3QzJ2TlV3dFE",
+	    "yes_no":"1"
 	    },
 	    {
 		"id":"tronix_waltz",
@@ -225,7 +247,10 @@
 	    {
 		"id":"tronix_auto",
 		"title":"Automata",
-		"body":"This is the flagship autonomous robotics design competition at Engineer which guarantees to challenge the brain buds of the participants. The teams are required to make a robot which can complete the specified task using a real-time video feed provided by an overhead camera and image processing to traverse through the arena. The team which finishes fastest is declared the winner."
+		"body":"This is the flagship autonomous robotics design competition at Engineer which guarantees to challenge the brain buds of the participants. The teams are required to make a robot which can complete the specified task using a real-time video feed provided by an overhead camera and image processing to traverse through the arena. The team which finishes fastest is declared the winner.",
+	    "link":"Problem Statement",
+	    "direct":"https://drive.google.com/open?id=0B7pLVEsfTBunSVNxZjVzOU54ZUE",
+	    "yes_no":"1"
 	    },
 	    {
 		"id":"tronix_sim",

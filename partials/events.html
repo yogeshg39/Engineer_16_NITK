@@ -41,6 +41,7 @@
                                       <div role="tabpanel" ng-repeat="event in eventgrp track by $index" ng-class="$index == 0 ? 'active' : '' " id="{{::event.id}}" class="tab-pane fade in">
                                         
                                         <p>{{event.body}}</p>
+                                        <a href="{{event.direct}}" ng-show="{{event.yes_no}}"><button class="btn btn-default">{{event.link}}</button></a>
                                       </div>
                                     </div>
                                 </div>

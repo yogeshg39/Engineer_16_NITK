@@ -1,0 +1,245 @@
+body
+{
+	/*background: url(../images/Background1.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  
+}
+
+.train
+{
+   top:345px;
+   left:2540px;
+   z-index: 10000;
+}
+
+.bird
+{
+  width:80px;
+  height:72px;
+}
+
+.deer
+{
+  width:120px;
+  height:80px;
+}
+
+.sky
+{
+  z-index: 4;
+  opacity: 0.3;
+}
+
+.skyback
+{
+  position: absolute;
+ left:0px;
+ bottom:0px;
+}
+
+.waterdiv1
+{
+  z-index: 4;
+}
+
+.waterdiv2
+{
+  z-index: 3;
+}
+
+.water1
+{
+  position: absolute;
+ left:0px;
+ bottom:0px;
+}
+
+.background
+{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: -10;
+}
+
+/*.back5
+{
+  width: 100%;
+  height: 100%;
+  background: url(../images/sky.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+
+.back5
+{
+  width: 100%;
+  height: 100%;
+  background: url(../images/Background5.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.back4
+{
+  width: 100%;
+  height: 100%;
+  background: url(../images/Background4.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.back3
+{
+  width: 100%;
+  height: 100%;
+  background: url(../images/Background3.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.back2
+{
+  width: 100%;
+  height: 100%;
+  background: url(../images/Background2.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.back1
+{
+  width: 100%;
+  height: 100%;
+  background: url(../images/Background1.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.fullback
+{
+ position: absolute;
+ left:0px;
+ bottom:0px;
+}
+
+.scene
+{
+  z-index: 10;
+}
+
+.nolinebreak
+{
+	display: inline;
+}
+
+.absolutepos
+{
+	position: absolute;
+}
+
+.windmillwings
+{
+	
+}
+
+.windmillwings {
+    -webkit-animation: spin 10s infinite linear;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+.sun
+{
+  position: fixed;
+  left:455px;
+  top:-57px;
+  z-index: -51;
+}
+
+.clouds
+{
+  opacity: 0.3;
+  z-index:-5;
+}
+
+.cloud1
+{
+  top:160px;
+  left:20px;
+}
+
+.cloud2
+{
+  top:10px;
+  left:800px;
+}
+
+.cloud3
+{
+  top:80px;
+  left:400px;
+}
+
+.cloud4
+{
+  top:10px;
+  left:188px;
+}
+
+.cloud5
+{
+  top:150px;
+  left:1000px;
+}
+
+.deer1
+{
+  top: 350px;
+  left: 100px;
+}
+
+.deer2
+{
+  top: 373px;
+  left: 538px;
+}
+
+.deer3
+{
+  top: 416px;
+  left: 650px;
+}
+
+.invisible
+{
+    display: none;
+}
+
+.visible
+{
+    display: inherit;
+}

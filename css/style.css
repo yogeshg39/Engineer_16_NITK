@@ -505,6 +505,27 @@ hr {
     cursor: pointer;
 }
 
+.carousel-indicators-tabs1 li {
+    width: 120px !important;
+    height: 50px !important;
+    text-indent: 0px !important;
+    padding: 5px;
+    border: 1px #ccc solid;
+    background: white;
+    border-radius: 0;
+    display: inline-block;
+    margin: -1.5px !important;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.carousel-indicators-tabs1 {
+    left: 0%;
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 2px;
+}
+
 .carousel-indicators-tabs {
     left: 0%;
     width: 100%;
@@ -524,7 +545,7 @@ hr {
     top: 10px !important;
 }
 
-@media(max-width:992px) {
+@media(max-width:1000px) {
     .carousel-indicators-tabs li {
         width: 10px !important;
         height: 10px !important;
@@ -799,4 +820,45 @@ ul.social-buttons li:last-child {
     #engiSVG{
     width:500px; height:500px;
 }
+}
+
+.box {
+  position: relative;
+  border-radius: 3px;
+  background: #ffffff;
+  border-top: 3px solid #ccc;
+  margin-bottom: 20px;
+  width: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.workshop_title
+{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.workshop_menu
+{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-family: Roboto;
+    color:#444;
+}
+
+.workshop_menu a
+{
+    color:#444;
+    text-decoration: none;
+}
+
+.workshop_menu:hover
+{
+    border-bottom: 2px solid #444;
+}
+
+.desc_title
+{
+    font-size: 16px;
 }
