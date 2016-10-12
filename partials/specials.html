@@ -1,20 +1,15 @@
 
 <article ng-controller="specialsCtrl">
     <div class="container-fluid main-content-container">
-        <div class="row" style="background:url('images/bg/workshops.jpg'); background-size:auto 400px;">
-            <div class="col-lg-12 text-center events-pg" style="padding:20px !important; margin-top:20px; height:200px;" ">
-                <h1 class="wow slideInDown "><b>SPECIAL EVENTS</b></h1>
-                
-            </div>
-        </div>
-        <div class="row row-eq-height events-pg ">
+        
+        <div class="row row-eq-height" style=" margin-top:70px;">
             <div class="col-lg-1 col-md-1 "></div>
-            <div class="col-lg-10 col-md-10 events-pg-car " style="background: white; box-shadow: 0 0 5px #555; margin-top:-100px; margin-left:15px; margin-right:15px; padding:20px !important; ">
+            <div class="col-lg-10 col-md-10 " style="background-color: rgba(0, 0, 0, 0.7); box-shadow: 0 0 5px #555; padding:20px !important; color:#fff">
            <div class="row " style="padding:20px !important; " ng-repeat="special in specials ">
             <div class="col-lg-1 "></div>
             <div class="col-lg-10 " id="{{::special.id}}">
-                <h4 class="wow fadeInDown "><b ng-bind="special.name "></b></h4>
-                <p ng-bind-html="special.content "></p>
+                <h4 class="wow fadeInDown" style="font-family: bit;font-size: 30px">{{special.name}}</h4>
+                <p ng-bind-html="special.content" style="font-size:16px;font-weight: bold"></p>
             </div>
             <div class="col-lg-1 "></div>
         </div></div>

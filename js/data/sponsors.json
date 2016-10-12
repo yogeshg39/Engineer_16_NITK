@@ -1,5 +1,29 @@
 {
     "sponsors": [{
+        "name": "Robert Bosch",
+        "img":"bosch.png",
+        "link":""
+    },{
+        "name": "Dell",
+        "img":"dell.png",
+        "link":""
+    },{
+        "name": "Think India",
+        "img":"think_india.png",
+        "link":""
+    },{
+        "name": "CFAL",
+        "img":"cfal-logo.png",
+        "link":""
+    },{
+        "name": "Robocraze",
+        "img":"robo_craze.png",
+        "link":""
+    },{
+        "name": "The Hindu",
+        "img":"the_hindu.png",
+        "link":""
+    },{
         "name": "AEQUS",
         "img":"AEQUS.jpg",
         "link":""

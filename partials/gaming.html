@@ -1,0 +1,19 @@
+
+<article ng-controller="gamingCtrl">
+    <div class="container-fluid main-content-container">
+        
+        <div class="row row-eq-height" style=" margin-top:70px;">
+            <div class="col-lg-1 col-md-1 "></div>
+            <div class="col-lg-10 col-md-10 " style="background-color: rgba(0, 0, 0, 0.7); box-shadow: 0 0 5px #555; padding:20px !important; color:#fff">
+           <div class="row " style="padding:20px !important; " ng-repeat="game in games ">
+            <div class="col-lg-1 "></div>
+            <div class="col-lg-10 " id="{{::game.id}}">
+                <h4 class="wow fadeInDown" style="font-family: bit;font-size: 30px">{{game.name}}</h4>
+                <p style="font-size:16px;font-weight: bold">{{game.content}}</p>
+            </div>
+            <div class="col-lg-1 "></div>
+        </div></div>
+            
+        </div>
+    </div>
+</article>

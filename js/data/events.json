@@ -52,40 +52,26 @@
     
     "biz":[
 	    {
-		"id":"biz_ad",
-		"title":"Ad-venture",
-		"body":"“Promise, large promise, is the soul of an advertisement”-Samuel Johnson. On these lines, this event “Ad-venture” ventures out to pick out one of the most promising ad-campaigns where the toughest competition exists when it comes to the ad industry, the crux of the contest being to look out for one’s talent of embedding ideas into media."
-	    },
+		"id":"biz_co",
+		"title":"CoHRence",
+		"body":"Time and again we have pushed our artificial intelligence to help organizations identify and screen the right applicant for the right position effectively. But the truth is that, the heart of hiring, training and retaining is a human one, and no amount of technology will permanently displace those involved in HR. CoHRence is a creation of activity that has an entertaining, instructive and competing element to it. The event explores your skills to discover a great people’s leader who creates a culture of innovation in addition to do justice to the traditional HR functions of talent acquisition, development and team management all of which steer an organization’s growth."
+		},
 	    {
-		"id":"biz_ms",
-		"title":"Mock-Stock",
-		"body":"The big world is never complete without the perfect doze of the Dalal Street. And doing justice to this fact is what this contest banks upon. The perfect simulation of the dynamic schedule of the stock market makes the smart folks react their brains out for all the 4 days of Engineer."
-	    }
+		"id":"biz_mar",
+		"title":"ExpectoForuMAR",
+		"body":"Marketing is the distinguishing, unique function of the business, this is an event which tests the marketing mettle of you by pulling out your presentation, pitching, convincing, negotiating skills. We promise you that every round will be very challenging and will make you pull out the best rabbits out of your hats. But don’t worry, just keep in mind ‘Impossible is nothing’."
+		},
+	    {
+		"id":"biz_bob",
+		"title":"Battle of Brands",
+		"body":"Brands have become an integral part of our daily lives. From the moment we pick up the toothbrush in the morning, we are surrounded by the brands we love. But how really aware are we about these brands? Battle of Brands(BoB) is a fun and entertaining event where creativity and thinking out of the box helps you get closer to the prize money."
+		},
+	    {
+		"id":"biz_fin",
+		"title":"FINomenal",
+		"body":"*Rule No. 1, Never lose money. *Rule No. 2, Never forget rule No. 1. The above quote sums it all about handling finance. You might be good in handling thousands or yen thousands but can you control your nerves when you have to play with millions or sometimes billions. If yes then this will be the event to prove yourself.An event where you have to solve finance related problem which will test your number crunching ability and enthusiasm in finance management."
+		}
     ],
-
-    "mining":[
-	    {
-		"id":"min_mb",
-		"title":"Mind Bend",
-		"body":"A quiz exclusively designed to “dig out” the treasure of knowledge acquired in the wide arena of mining and its related applications."
-	    },
-	    {
-		"id":"min_sub",
-		"title":"Substantivo",
-		"body":"Basically, a surveying based events where we try to create awareness about the role of surveying in the exploration projects by testing the logical ability of the contestants. We will be elaborating the levels by testing the conceptual and the practical clarity of surveying."
-	    },
-	    {
-		"id":"min_mt",
-		"title":"Mining Tycoon",
-		"body":"This event takes you through a whole roundabout through an amazing & unique relationship between Mining & Management, which dates back to the Industrial Revolution. Contestants are put to analyze a certain case, appreciate the interdependence of the two and come up with the best possible solution surpassing all exceptional cases .The most feasible solution will be rewarded."
-	    },
-	    {
-		"id":"min_tm",
-		"title":"Tech Mining",
-		"body":"Technology has gone a mile ahead in the recent times, by linking software to the core fields. Similar relation exists between Mining application and software which took birth in the form of simulation analysis or simulation software. This event celebrates this relation in the form of workshop, which aims at making students aware of the trends and the working of simulation software. It encourages the student’s mind to the field of software analysis and its applications in mining."
-	    }
-    ],
-
     "sce":[
 	    {
 		"id":"sce_lw",
@@ -255,7 +241,7 @@
 		"title":"Trailblazer",
 		"body":"The event which pulls a huge participation from the robotics enthusiasts, the participants are required to make an autonomous robot which can traverse through a path using the line following technique and complete the task specified in the problem statement. The team which finishes the task in the shortest time is the winner.",
 	    "link":"Problem Statement",
-	    "direct":"https://drive.google.com/open?id=0B7pLVEsfTBunQ1p3QzJ2TlV3dFE",
+	    "direct":"https://drive.google.com/open?id=0B7pLVEsfTBunOHFtd0FELXMyRGs",
 	    "yes_no":"1"
 	    },
 	    {
@@ -268,7 +254,7 @@
 		"title":"Automata",
 		"body":"This is the flagship autonomous robotics design competition at Engineer which guarantees to challenge the brain buds of the participants. The teams are required to make a robot which can complete the specified task using a real-time video feed provided by an overhead camera and image processing to traverse through the arena. The team which finishes fastest is declared the winner.",
 	    "link":"Problem Statement",
-	    "direct":"https://drive.google.com/open?id=0B7pLVEsfTBunSVNxZjVzOU54ZUE",
+	    "direct":"https://drive.google.com/open?id=0B7pLVEsfTBunLTdoYUVjVnUzR2M",
 	    "yes_no":"1"
 	    },
 	    {

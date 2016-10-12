@@ -5,6 +5,9 @@
     <title>
         Engineer 2016 - NITK Surathkal
     </title>
+    <title>
+        Engineer 2016 - NITK Surathkal
+    </title>
     <meta name="author" content="Yuvraj Singh Bawa, Yogesh Ghaturle">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="NIT,NITK,Surathkal,NITK Surathkal,Karnataka,Engineer,Engi,Engi 2016, Engineer 2016,Yuvraj,Singh,Bawa,Yogesh,Ghaturle, Yuvraj Singh Bawa, Yogesh Ghaturle" name="keywords" />
@@ -12,17 +15,23 @@
     <link rel="icon" href="images/logo-icon.png" type="image/png">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/animations.min.css" rel="stylesheet">
-    <link href="css/animations-ie-fix.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/animations.min.css" rel="stylesheet">
+    <link href="css/animations-ie-fix.css" rel="stylesheet">
+    <link href="css/st.css" rel="stylesheet">
     <script src="js/jQuery-2.1.4.min.js"></script>
     <script src="js/angular.min.js"></script>
-    <script src="js/scripts/ng/app.js"></script>
+    <script src="js/scripts/ng/appEvents.js"></script>
+    <script src="js/scripts/ng/eventsCtrl.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/velocity.min.js"></script>
+    <script src="js/velocity-ui.min.js"></script>
+    <script src="js/st.js"></script>
     <script src="js/script.js"></script>
+    
     <style>
     @font-face {
         font-family: bit;
@@ -34,6 +43,19 @@
        background-size:cover;
     }
     </style>
+
+    <script>
+        $(document).ready(function(){
+          $('.sidebar-toggle').click(function(e) {
+            e.preventDefault();
+                 $("#wrapper").toggleClass("toggled");
+                 $("#wrapper").toggleClass("toggled");
+                 console.log("Clicked");
+           });
+          
+        });
+    </script>
+
 </head>
 
 <body>
@@ -43,12 +65,33 @@
         <div id="overlay"></div>
         <!-- Page Content -->
         <div id="page-content-wrapper">
+        
+             <div class="container-fluid">
+                <div class="row" style="background-color: rgba(0, 0, 0, 0.1);padding-bottom: 10px">
+                    <div class="col-lg-3 col-md-3 col-sm-3" >
+                        <button type="button" class="sidebar-toggle">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                       
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6" style="display:flex;justify-content:center;align-items:center;margin-top: 10px">
+                        <div class="page_title wow slideInDown" style="font-size: 36px;font-family: bit;color: #fff;border: 5px solid #fff;padding: 0 60px 0 60px;display:flex;justify-content:center;align-items:center;height: 56px;
+    margin-top: 5px;"> 
+                            EVENTS
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3" style="text-align: right"> 
+                        <a href="index.html"><img src="images/logos/engi-white.png" style="height: 55px; margin-top: 15px;" /></a>
+                    </div>
+                </div>
+            </div>
             
-            <section ng-include="'partials/topbar1.html'"></section>
-            <!--/#topbar-->
-            <!--actual page content-->
-            <section ng-include="'partials/team.html'"></section>
-            <!--/ #actual page content-->
+            <section ng-include="'partials/events.html'"></section>
+            
+
+
             <!-- Footer -->
             <section ng-include="'partials/footer.html'"></section>
             <!-- /#Footer -->

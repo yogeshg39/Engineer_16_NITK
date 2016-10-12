@@ -1,0 +1,25 @@
+{
+    "gaming": [{
+        "id": "dota",
+        "name": "Dota 2",
+        "content":"Does your team have what it takes to make it to the top in this chaos? Gather the feeders and showcase your prowess and strategies in possibly the most balanced patch ever. The tournament format will be just like The International with Group stages and Brackets."
+    }, {
+        "id": "fifa",
+        "name": "Fifa 16",
+        "content":"Escape reality and play the beautiful game in the virtual world. Push yourself further than you have ever before to see the face of your next nemesis and experience euphoria with spectacular goals and nail-biting finishes."
+    }, {
+        "id": "counter_strike",
+        "name": "Counter-Strike 1.6",
+        "content":"Be it knifing, head-shots or no-scope kills, flaunt your skills in the classic first person shooter of Terrorists vs Counter-Terrorists. Compete with the best teams in fierce battles and earn the title of champions." 
+    }, {
+        "id": "nfs",
+        "name": "NFS Most Wanted",
+        "content":"How will they remember you? In Need for Speed, that all depends on how you drive. Put the pedal to the metal and be there for nail-biting dashes to the finish line and be crowned as the ultimate racer." 
+    },{
+        "id": "mm",
+        "name": "Mini-Militia",
+        "content":"More of a casual gamer? Experience intense multiplayer combat in the world of doodles and fight it out on your phones to win the title of being the best mobile shooter around. This will be a single player event."
+    }
+
+    ]
+}

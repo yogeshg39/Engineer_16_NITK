@@ -1,12 +1,7 @@
 <article ng-controller="teamCtrl">
-<div class="container-fluid main-content-container">
-    <div class="row">
-        <div class="col-lg-12 text-center" style="padding:20px !important;">
-            <h1 class="wow slideInDown"><b>MEET  THE  TEAM</b></h1>
-            <hr />
-        </div>
-    </div>
-    <div class="row text-center" style="padding:20px !important;"  ng-repeat="member in members track by $index" ng-if="$index % 3 ==0">
+<div class="container-fluid main-content-container" style="margin-top: 30px">
+    
+    <div class="row text-center" style="padding:20px !important;color:#fff"  ng-repeat="member in members track by $index" ng-if="$index % 3 ==0">
         <div class="col-lg-4 col-md-4" ng-repeat="i in [$index, $index + 1, $index + 2]">
             <div ng-if="members[i]!=undefined">
             <div class="team-img-wrapper">

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+    <title>
+        Engineer 2016 - NITK Surathkal
+    </title>
+    <meta name="author" content="Yuvraj Singh Bawa, Yogesh Ghaturle">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="NIT,NITK,Surathkal,NITK Surathkal,Karnataka,Engineer,Engi,Engi 2016, Engineer 2016,Yuvraj,Singh,Bawa,Yogesh,Ghaturle, Yuvraj Singh Bawa, Yogesh Ghaturle" name="keywords" />
+    <meta content="Engineer is the annual technical symposium of NITK Surathkal." name="description" />
+    <link rel="icon" href="images/logo-icon.png" type="image/png">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animations.min.css" rel="stylesheet">
+    <link href="css/animations-ie-fix.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jQuery-2.1.4.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/scripts/ng/app.js"></script>
+    <script src="js/scripts/ng/teamCtrl.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/script.js"></script>
+    <style>
+     @font-face {
+        font-family: bit;
+        src: url('assets/fonts/BITSUMIS.ttf');
+    }
+    @font-face {
+        font-family: engi;
+        src: url('assets/fonts/spaceage.otf');
+    }
+    body, html {
+        background: #1f1f1f;
+        background: url(images/back6.png) no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <!--sidebar-->
+        <section ng-include="'partials/sidebar.html'"></section>
+        <div id="overlay"></div>
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            
+
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-4" style=" height:70px; padding:10px;font-family: bit;font-size: 16px;text-align: center" id="topbar">
+                        <ul class="topbar">
+                            <li><a href="events.html">EVENTS</a></li>
+                            <li><a href="workshops.html">WORKSHOPS</a></li>
+                            <li><a href="specials.html">SPECIALS</a></li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4" style=" height:70px; padding:10px;font-size: 16px;text-align: center;color:#fff" id="topbar">
+                        <div style="text-align: center;display: inline;">
+                            <img src="images/nitk.png" style="height: 55px; padding:10px;" />
+                                PRESENTS
+                            <img src="images/logos/engi-white.png" style="height: 50px; padding:10px;" />
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4" style=" height:70px; padding:10px;font-family: bit;font-size: 16px;text-align: center" id="topbar">
+                        <ul class="topbar">
+                            <li><a href="events.html">GAMING</a></li>
+                            
+                            <li><a href="sponsors.html">SPONSORS</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+
+                        
+                    </div>
+
+                   
+                </div>
+
+
+                 <div class="social_main">
+
+                    <ul style="list-style:none">
+                        <li>
+                            <a target="_blank" href="http://fb.com/engineernitk" class="social"><img src="images/fb.png" ></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://twitter.com/Engineer_NITK" class="social"><img src="images/twitter.png" ></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://instagram.com/engineer2k16" class="social">
+                                <img src="images/instagram.png" >
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://youtube.com/user/engineernitk" class="social"><img src="images/youtube.png" ></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <section ng-include="'partials/index.html'"></section>
+
+
+            <!-- <section ng-include="'partials/countdown.html'"></section>
+ -->
+        </div>
+        
+        <section ng-include="'partials/modal.html'"></section>
+        <!--/ #modal-->
+    </div>
+    
+</body>
+
+</html>

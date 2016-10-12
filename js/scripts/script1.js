@@ -1,19 +1,30 @@
-$(document).ready(function(){
+$(window).load(function(){
+
+	var height=$(window).height()
+	var width=height*10.67;
+	var height=$(window).height();
+	console.log(height);
 
 	var height=$(window).height();
-	var width=height*10.67;
-
 	console.log(height);
+
+	var height=$(window).height();
+	console.log(height);
+
+	var height=$(window).height();
+	console.log(height);
+
 	console.log(width);
 	$('.background').height(height);
 	$('.background').width(width);
 
 	$('.train_img').height(height);
 	var disFromLeftTrain=width/2.3800;
+
 	$('.train_img').css('left',disFromLeftTrain);
 	
 	var disFromLeftTrainFinal=width/1.47246;
-
+	var moveFireBy=disFromLeftTrainFinal-disFromLeftTrain;
 	$('.fullback').height(height);
 	$('.fullback').width(width);
 
@@ -41,15 +52,55 @@ $(document).ready(function(){
 	$('.station_light2').css('left',lengthFromLeftWindow2);
 	$('.station_light2').css('top',lengthFromTopWindow2);
 
-	var lengthFromLeftRocket=width/1.065;
-	var lengthFromTopRocket=height/4.03797;
+	var lengthFromLeftRocket=width/1.061;
+	var lengthFromTopRocket=height/2.68;
 
 	$('.rocket').css('left',lengthFromLeftRocket);
 	$('.rocket').css('top',lengthFromTopRocket);
 
-	var flag=1;
+	var lengthFromLeftRocketFire=width/1.0564;
+	var lengthFromTopRocketFire=height/1.605;
+	$('.rocket_fire').css('left',lengthFromLeftRocketFire);
+	$('.rocket_fire').css('top',lengthFromTopRocketFire);
 
+
+	var lengthFromLeftDeer=width/315.52;
+	var lengthFromTopDeer=height/1.701;
+
+	$('.deer').css('left',lengthFromLeftDeer);
+	$('.deer').css('top',lengthFromTopDeer);
+
+	var lengthFromLeftBird=380;
+	var lengthFromTopBird=370;
+
+	$('.bird1').css('left',lengthFromLeftBird);
+	$('.bird1').css('top',lengthFromTopBird);
+
+
+	var lengthFromLeftTrainFire=width/2.03500+7;
+	var lengthFromTopTrainFire=height/1.74618;
+
+	$('.train_fire').css('left',lengthFromLeftTrainFire);
+	$('.train_fire').css('top',lengthFromTopTrainFire);
+
+	$('#content').removeClass('invisible');
+
+	var height=$(window).height();
+	console.log(height);
+	
+
+	var flag=1;
+	var startTime = new Date().getTime();
+
+	
 	setInterval(function () {
+
+
+				if(new Date().getTime() - startTime > 40000){
+			        
+			        return;
+			    }
+
                     if (flag==1) {
                     	$('.waterdiv2').removeClass('invisible');
                         $('.waterdiv1').addClass('invisible');
@@ -67,8 +118,7 @@ $(document).ready(function(){
 
 	
 
-	$('body').animate( { scrollLeft: width },60000);//60000
-
+	$('body').animate( { scrollLeft: width },60000);
 
 	setTimeout(function() {   //calls click event after a certain time
 	   $('.back1').addClass("invisible");
@@ -88,16 +138,139 @@ $(document).ready(function(){
 
 
 	setTimeout(function() {   //calls click event after a certain time
+	   $('.rocket').animate({
+	        top: 50}
+	    ,3000,'linear');
+	}, 42000);
+
+	setTimeout(function() {   //calls click event after a certain time
+	   $('.rocket1').animate({
+	        height: 115}
+	    ,3000,'linear');
+	}, 42000);
+
+
+	/*var rocketFireFinal=width/1.0599;
+	var rocketFireFinalTop=height/4.6692;
+	
+	var bezier_params_rocket_fire = {
+	    start: {
+	      x:lengthFromLeftRocketFire,
+	      y:lengthFromTopRocketFire,
+	      angle: 10
+	    },
+	    end: {
+	      x:rocketFireFinal,
+	      y:rocketFireFinalTop,
+	      angle: -10,
+	      length: 0.25
+	    }
+	  }
+
+	setTimeout(function() { 
+	step100();
+	},42000);
+
+  	function step100()
+  	{
+  		$('.rocket_fire').animate({path : new $.path.bezier(bezier_params_rocket_fire)},3000,function(){changeRocketSource()});
+  	}*/
+
+  	setTimeout(function() { 
+	changeRocketSource();
+	},45000);
+
+
+  	function changeRocketSource()
+  	{
+  		$('.rocket1').css("transform", "rotate(-45deg)");
+  		rocketTurnRight();
+  	}
+
+  	var rocketFinalTurnRight=lengthFromLeftRocket-500;
+
+  	var bezier_params_rocket_right = {
+	    start: {
+	      x:lengthFromLeftRocket,
+	      y:50,
+	      angle: 0
+	    },
+	    end: {
+	      x:rocketFinalTurnRight,
+	      y:-100,
+	      angle: 0,
+	      length: 0
+	    }
+	  }
+
+
+	var bezier_params_rocket_up = {
+	    start: {
+	      x:1200,
+	      y:height,
+	      angle: 0
+	    },
+	    end: {
+	      x:0,
+	      y:0,
+	      angle: 0,
+	      length: 0
+	    }
+	  }
+
+
+	function rocketTurnRight()
+  	{
+  		$('.rocket').animate({path : new $.path.bezier(bezier_params_rocket_right)},5000,function(){finalScreen()});
+  	}
+
+  	function finalScreen()
+  	{
+
+  		var height=$(window).height();
+  		$('.background').height(height+50);
+
+  		$('.back5').addClass("invisible");
+
+  		$('.sky').addClass("invisible");
+  		$('.scene').addClass("invisible");
+  		$('.train').addClass("invisible");
+  		$('.train_fire').addClass("invisible");
+  		$('.bird').addClass("invisible");
+  		$('.deer1').addClass("invisible");
+  		$('.windmillwings').addClass("invisible");
+  		$('.waterdiv1').addClass("invisible");
+  		$('.waterdiv2').addClass("invisible");
+  		$('.blink1').addClass("invisible");
+  		$('.station_light1').addClass("invisible");
+  		$('.station_light2').addClass("invisible");
+  		$('#wrapper').removeClass("invisible");
+  		//$('body').animate( { scrollLeft: 0 },0);
+  		//$('.rocket').css("left",500);
+  		$('.rocket').animate({path : new $.path.bezier(bezier_params_rocket_up)},5000,function(){});
+	  	
+
+  	}
+
+
+	setTimeout(function() {   //calls click event after a certain time
 	   $('.train_img').animate({
 	        left: disFromLeftTrainFinal}
 	    ,10000,'linear');
 	}, 26000);
 
+	var finalFire=lengthFromLeftTrainFire+moveFireBy;
 	setTimeout(function() {   //calls click event after a certain time
+	   $('.train_fire').animate({
+	        left:finalFire }
+	    ,10000,'linear');
+	}, 26000);
+
+	/*setTimeout(function() {   //calls click event after a certain time
 	   $('.train_fire_gif').animate({
 	        left: disFromLeftTrainFinal}
 	    ,10000,'linear');
-	}, 26000);
+	}, 26000);*/
 
 
 	setTimeout(function() {   //calls click event after a certain time
@@ -128,7 +301,7 @@ $(document).ready(function(){
 
 
 	var deerX3=width/26.50;
-	var deerY3=height/1.62;
+	var deerY3=height/1.6;
 
 	var bezier_params2 = {
 	    start: {
@@ -145,7 +318,7 @@ $(document).ready(function(){
 	  }
 
 	var deerX4=width/15.4814;
-	var deerY4=height/1.4509;
+	var deerY4=height/1.44;
 
 	  var bezier_params3 = {
 	    start: {
@@ -162,7 +335,7 @@ $(document).ready(function(){
 	  }
 
 	 var deerX5=width/13.7902;
-	 var deerY5=height/1.434;
+	 var deerY5=height/1.41;
 
 	  var bezier_params4 = {
 	    start: {
@@ -229,8 +402,8 @@ $(document).ready(function(){
 	    }
 	  }
 
-	 var deerX9=width/5.7517;
-	 var deerY9=height/1.8211;
+	 var deerX9=width/5.80;
+	 var deerY9=height/1.811;
 
 	  var bezier_params8 = {
 	    start: {
@@ -246,8 +419,9 @@ $(document).ready(function(){
 	    }
 	  }
 
-
+	setTimeout(function() { 
 	step1();
+	},1000);
   	function step1()
   	{
   		$('.deer').animate({path : new $.path.bezier(bezier_params1)},500,function(){step2()});
@@ -494,7 +668,7 @@ $(document).ready(function(){
 	      angle: 0
 	    },
 	    end: {
-	      x:5500,
+	      x:5300,
 	      y:120,
 	      angle: 10,
 	      length: 0.25
@@ -505,7 +679,7 @@ $(document).ready(function(){
 	  var finalYBird=height/2.2152777;
 	  var bezier_bird_params16 = {
 	    start: {
-	     x:5500,
+	     x:5300,
 	      y:120,
 	      angle: 0
 	    },
@@ -518,8 +692,10 @@ $(document).ready(function(){
 	  }
 
 	  
-
+	setTimeout(function() { 
 	movebird1step1();
+	},1000);
+	
   	function movebird1step1()
   	{
   		$('.bird1').animate({path : new $.path.bezier(bezier_bird_params1)},2000,function(){movebird1step2()});
@@ -589,7 +765,7 @@ $(document).ready(function(){
   	}
   	function movebird1step15()
   	{
-  		$('.bird1').animate({path : new $.path.bezier(bezier_bird_params15)},2500,function(){movebird1step16()});
+  		$('.bird1').animate({path : new $.path.bezier(bezier_bird_params15)},1500,function(){movebird1step16()});
   	}
   	function movebird1step16()
   	{
@@ -642,39 +818,23 @@ $(document).ready(function(){
 	    }
 	  }
 
-	var blinkX4=width/2.6045;
-	var blinkY4=height/2.063;
+	var blinkX5=width/2.414;
+	var blinkY5=height/1.9903;
 
 	var bezier_blink_params3 = {
 	    start: {
 	     x:blinkX3,
 	      y:blinkY3,
-	      angle: 0
-	    },
-	    end: {
-	      x:blinkX4,
-	      y:blinkY4,
-	      angle: 0,
-	      length: 0
-	    }
-	  }
-
-	var blinkX5=width/2.414;
-	var blinkY5=height/1.9903;
-
-	var bezier_blink_params4 = {
-	    start: {
-	     x:blinkX4,
-	      y:blinkY4,
-	      angle: 0
+	      angle: 10
 	    },
 	    end: {
 	      x:blinkX5,
 	      y:blinkY5,
-	      angle: 0,
+	      angle: 10,
 	      length: 0
 	    }
 	  }
+
 	
 	setTimeout(function() {   //calls click event after a certain time
 	  $('.blink1').animate({path : new $.path.bezier(bezier_blink_params1)},3000,function(){blink1()});
@@ -689,12 +849,7 @@ $(document).ready(function(){
 
   	function blink2()
   	{
-  		$('.blink1').animate({path : new $.path.bezier(bezier_blink_params3)},3000,function(){blink3()});
-  	}
-
-  	function blink3()
-  	{
-  		$('.blink1').animate({path : new $.path.bezier(bezier_blink_params4)},3000,function(){});
+  		$('.blink1').animate({path : new $.path.bezier(bezier_blink_params3)},6000,function(){});
   	}
 
   	setTimeout(function() {   //calls click event after a certain time

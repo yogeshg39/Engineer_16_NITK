@@ -107,7 +107,7 @@
 		"id": "touch_and_augmented_reality",
 		"title": "Touch and Augmented Reality",
 		"body": "What will our world be like in 2020? Digital technologies will continue to proliferate, enabling ever more ways of changing how we live. But will such developments improve the quality of life, empower us, and make us feel safer, happier and more connected? Or will living with technology make it more tiresome, frustrating, angst ridden, and security-driven? What will it mean to be human when everything we do is supported or augmented by technology? Why not break away, and wander in smart environments covered in living displays, or carry a system with you as an extension of your senses, augmenting vision? Let us blurred the line between real and virtual world.  In this 2 days workshop we will explore the opportunities for surface and gesture computing with help of some live demonstration of surface + gesture computing where we will control our pc with waving hands only in air.",
-		"body_short": "n this 2 days workshop we will explore the opportunities for surface and gesture computing with help of some live demonstration of surface + gesture computing where we will control our pc with waving hands only in air.",
+		"body_short": "In this 2 days workshop we will explore the opportunities for surface and gesture computing with help of some live demonstration of surface + gesture computing where we will control our pc with waving hands only in air.",
 		"date": "21st and 22nd October",
 		"duration": "2 days",
 		"cost": "RS 1000 per person",
@@ -115,5 +115,18 @@
 		"poster": "images/workshops/touch_and_augmented_reality_poster.jpg",
 		"company_logo": "images/workshops/infi_zeal_technologies.png",
 		"related_image": "images/workshops/augmented.png"
+	},
+	{
+		"id": "ugv",
+		"title": "Unmanned Ground Vehicle ",
+		"body": "An Unmanned Ground Vehicle (UGV) is a vehicle that operates while in contact with the ground and without an on board human presence. Generally, the vehicle will have a set of sensors to observe the environment, and will either autonomously make decisions about its behaviour or pass the information to a human operator at a different location who will control the vehicle through teleoperation. This workshop will be dealing with an UGV autonomous bot which will be performing:Image processing and Ball tracking.",
+		"body_short": "An Unmanned Ground Vehicle (UGV) is a vehicle that operates while in contact with the ground and without an on board human presence. This workshop will be dealing with an UGV autonomous bot which will be performing:Image processing and Ball tracking.",
+		"date": "22nd and 23rd October",
+		"duration": "2 days",
+		"cost": "RS 1000 per person",
+		"contents_link": "https://drive.google.com/open?id=0B4CEASnKVjqCeEFsNGlhQzF0RGM",
+		"poster": "images/workshops/touch_and_augmented_reality_poster.jpg",
+		"company_logo": "images/workshops/infi_zeal_technologies.png",
+		"related_image": "images/workshops/ugv.jpg"
 	}
 ]

@@ -1,6 +1,7 @@
 body
 {
 	overflow-y:hidden;
+  overflow-x:hidden; 
 }
 
 .train
@@ -17,7 +18,7 @@ body
 
 .train_fire
 {
-   z-index: 10000;
+   z-index:0;
 }
 
 .train_fire_gif
@@ -120,6 +121,12 @@ body
 {
   background: url(../images/Background1.png) no-repeat center center fixed; 
  }
+
+.final_back
+{
+  background: url(../images/back2.png) no-repeat center center fixed; 
+ }
+
 
 .fullback
 {
@@ -224,3 +231,4 @@ body
 {
   z-index: -5
 }
+

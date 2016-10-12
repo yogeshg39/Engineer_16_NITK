@@ -24,9 +24,31 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
+    
     <style>
-
+    @font-face {
+        font-family: bit;
+        src: url('assets/fonts/BITSUMIS.ttf');
+}
+    body, html {
+        background: #1f1f1f;
+        background: url('images/final_back.png') no-repeat center center fixed;
+       
+       background-size:cover;
+    }
     </style>
+
+    <script>
+        $(document).ready(function(){
+          $('.sidebar-toggle').click(function(e) {
+            e.preventDefault();
+                 $("#wrapper").toggleClass("toggled");
+                 $("#wrapper").toggleClass("toggled");
+                 console.log("Clicked");
+           });
+          
+        });
+    </script>
 </head>
 
 <body>
@@ -36,9 +58,29 @@
         <div id="overlay"></div>
         <!-- Page Content -->
         <div id="page-content-wrapper">
-            <!--topbar-->
-            <section ng-include="'partials/topbar.html'"></section>
-            <!--/#topbar-->
+            
+            <div class="container-fluid">
+                <div class="row" style="background-color: rgba(0, 0, 0, 0.1);padding-bottom: 10px">
+                    <div class="col-lg-3 col-md-3 col-sm-3" >
+                        <button type="button" class="sidebar-toggle">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                       
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6" style="display:flex;justify-content:center;align-items:center;margin-top: 10px">
+                        <div class="page_title wow slideInDown" style="font-size: 36px;font-family: bit;color: #fff;border: 5px solid #fff;padding: 0 60px 0 60px;display:flex;justify-content:center;align-items:center;height: 56px;
+    margin-top: 5px;"> 
+                            WORKSHOPS
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3" style="text-align: right"> 
+                        <a href="index.html"><img src="images/logos/engi-white.png" style="height: 55px; margin-top: 15px;" /></a>
+                    </div>
+                </div>
+            </div>
+
             <!--actual page content-->
             <section ng-include="'partials/workshops.html'"></section>
             <!--/ #actual page content-->
