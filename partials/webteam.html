@@ -1,0 +1,46 @@
+<article ng-controller="webteamCtrl">
+    <style>
+    .animatedSVG {
+        opacity: 0;
+    }
+    </style>
+    <div class="container-fluid main-content-container" style="margin-top: 30px">
+        
+        <div class="row text-center" style="padding:20px !important;color:#fff" ng-repeat="member in members track by $index" ng-if="$index % 4 ==0">
+
+            <div ng-if="$index!=4">
+                <div class="col-lg-4 col-md-4" ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]">
+                    <div ng-if="members[i]!=undefined">
+                        <div class="team-img-wrapper">
+                            <img class="img-circle img-team wow flipInY" src="images/team/{{::members[i].img}}" />
+                            <div class="team-img-hover">
+                                <a ng-href="{{::members[i].in}}" class="social lnkdn wow flipInX" target="_blank"><i class="fa fa-lg fa-facebook"></i></a>
+                            </div>
+                        </div>
+                        <h4 class="wow fadeInDown"><b ng-bind="members[i].name"></b></h4>
+                        <h4 class="wow fadeInUp" ng-bind="members[i].des"></h4>
+                        
+                    </div>
+                </div>
+            </div>
+            <div ng-if="$index==4">
+
+                <div class="col-lg-12 col-md-12">
+                    
+                        <div class="team-img-wrapper">
+                            <img class="img-circle img-team wow flipInY" src="images/team/{{::members[$index].img}}" />
+                            <div class="team-img-hover">
+                                <a ng-href="{{::members[$index].in}}" class="social lnkdn wow flipInX" target="_blank"><i class="fa fa-lg fa-fb"></i></a>
+                            </div>
+                        </div>
+                        <h4 class="wow fadeInDown"><b ng-bind="members[$index].name"></b></h4>
+                        <h4 class="wow fadeInUp" ng-bind="members[$index].des"></h4>
+                        
+                   
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</article>

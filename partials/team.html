@@ -6,15 +6,28 @@
             <div ng-if="members[i]!=undefined">
             <div class="team-img-wrapper">
                 <img class="img-circle img-team wow flipInY" src="images/team/{{::members[i].img}}" />
-                <div class="team-img-hover">
-                    <a ng-href="{{::members[i].fb}}" class="social fb wow flipInX" target="_blank"><i class="fa fa-lg fa-facebook"></i></a>
-                </div>
+                
             </div>
             <h4 class="wow fadeInDown"><b ng-bind="members[i].name"></b></h4>
             <h4 class="wow fadeInUp" ng-bind="members[i].des"></h4>
-            <h5 class="wow fadeInUp" ng-bind="members[i].email"></h5>
             </div>
         </div>
     </div>
+
+    <div class="row text-center" style="font-family: bit;font-size: 36px;color: #fff;"> COMMITTEE HEADS</div>
+
+    <div class="row text-center" style="padding:20px !important;color:#fff"  ng-repeat="member1 in committee track by $index" ng-if="$index % 3 ==0">
+        <div class="col-lg-4 col-md-4" ng-repeat="i in [$index, $index + 1, $index + 2]">
+            <div ng-if="committee[i]!=undefined">
+            <div class="team-img-wrapper">
+                <img class="img-circle img-team wow flipInY" src="images/team/{{::committee[i].img}}" />
+                
+            </div>
+            <h4 class="wow fadeInDown"><b ng-bind="committee[i].name"></b></h4>
+            <h4 class="wow fadeInUp" ng-bind="committee[i].des"></h4>
+            </div>
+        </div>
+    </div>
+
 </div>
 </article> 

@@ -9,9 +9,11 @@
                     <div class="" role="" style=" margin-top:100px;">
                         <div class="box" style="" ng-repeat="workshop in workshopDetails">
                             <div class="row" style="margin:0px">
-                                <div class="col-lg-3" style="margin-top: 30px">
+                                <div class="col-lg-3" style="margin-top: 10px">
                                     <div class="workshop_menu"  data-toggle="modal" data-target="#{{workshop.id}}" >Explore More</div>
                                     <div class="workshop_menu" ><a href="{{workshop.contents_link}}" target="_blank">Content</a></div>
+                                    <div class="workshop_menu" ><a href="{{workshop.register_link}}" target="_blank">Register</a></div>
+                                    
                                     <!-- <div class="workshop_menu"><b>Register</b></div> -->
                                 </div>
                                 <div class="col-lg-3">
@@ -40,6 +42,7 @@
                                             <li role="presentation"><a href="#{{workshop.id}}-details" aria-controls="profile" role="tab" data-toggle="tab">Details</a></li>
                                             <li role="presentation"><a href="#{{workshop.id}}-contents" aria-controls="messages" role="tab" data-toggle="tab">Content</a></li>
                                             <li role="presentation"><a href="#{{workshop.id}}-contact" aria-controls="settings" role="tab" data-toggle="tab">Contact</a></li>
+                                            <li role="presentation"><a href="#{{workshop.id}}-logo" aria-controls="settings" role="tab" data-toggle="tab">Partner</a></li>
                                           </ul>
 
                                           <!-- Tab panes -->
@@ -70,6 +73,13 @@
                                                 rjtshinde@gmail.com<br>
 
                                                 +91 9980770811<br></b></div>
+                                            </div>
+                                            <div role="tabpanel" class="tab-pane" id="{{workshop.id}}-logo">
+                                                
+                                                <div class="logo" style=" font-size: 16px;">
+
+                                                    <img src="{{workshop.company_logo}}" style="max-width: 400px">
+                                                </div>
                                             </div>
                                           </div>
                                         </div>

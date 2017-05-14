@@ -21,7 +21,8 @@
 	    {
 		"id":"comps_inscription",
 		"title":"Inscription",
-		"body":"An international online programming contest with teams from Microsoft, Yahoo and Stanford as previous participants is sure to attract thousands of coders. Participate in this event and prove your talent in designing efficient algorithms ad writing working codes."
+		"body":"Engineer, the annual technical fest of NITK, Surathkal, in association with HackerEarth presents Inscription, the online algorithmic programming contest of NITK. It is also the flagship event of Engineer's Computer Science Events' Committee. The previous editions of the event witnessed tons of participants from various countries and also successfully managed to attract some of the best coders of the world to compete for the top spot. This year once again Inscription strives to achieve its previous glory.Cash prizes worth INR 17K for top 3 Indian winners and HackerEarth goodies for NITK winner.",
+                "register":"https://www.hackerearth.com/inscription16/"
 	    },
 	    {
 		"id":"comps_ectf",
@@ -54,72 +55,103 @@
 	    {
 		"id":"biz_co",
 		"title":"CoHRence",
-		"body":"Time and again we have pushed our artificial intelligence to help organizations identify and screen the right applicant for the right position effectively. But the truth is that, the heart of hiring, training and retaining is a human one, and no amount of technology will permanently displace those involved in HR. CoHRence is a creation of activity that has an entertaining, instructive and competing element to it. The event explores your skills to discover a great people’s leader who creates a culture of innovation in addition to do justice to the traditional HR functions of talent acquisition, development and team management all of which steer an organization’s growth."
+		"body":"Time and again we have pushed our artificial intelligence to help organizations identify and screen the right applicant for the right position effectively. But the truth is that, the heart of hiring, training and retaining is a human one, and no amount of technology will permanently displace those involved in HR. CoHRence is a creation of activity that has an entertaining, instructive and competing element to it. The event explores your skills to discover a great people’s leader who creates a culture of innovation in addition to do justice to the traditional HR functions of talent acquisition, development and team management all of which steer an organization’s growth.",
+		"register":"https://docs.google.com/forms/d/e/1FAIpQLSc5ePkMqx4YuYL9hh3XezjIjEtpFofY16O1OcG9Xjob-6iOTA/viewform?c=0&w=1&usp=mail_form_link"	    
 		},
 	    {
 		"id":"biz_mar",
 		"title":"ExpectoForuMAR",
-		"body":"Marketing is the distinguishing, unique function of the business, this is an event which tests the marketing mettle of you by pulling out your presentation, pitching, convincing, negotiating skills. We promise you that every round will be very challenging and will make you pull out the best rabbits out of your hats. But don’t worry, just keep in mind ‘Impossible is nothing’."
+		"body":"Marketing is the distinguishing, unique function of the business, this is an event which tests the marketing mettle of you by pulling out your presentation, pitching, convincing, negotiating skills. We promise you that every round will be very challenging and will make you pull out the best rabbits out of your hats. But don’t worry, just keep in mind ‘Impossible is nothing’.",
+		"register":"https://docs.google.com/forms/d/e/1FAIpQLSc5ePkMqx4YuYL9hh3XezjIjEtpFofY16O1OcG9Xjob-6iOTA/viewform?c=0&w=1&usp=mail_form_link"
 		},
 	    {
 		"id":"biz_bob",
 		"title":"Battle of Brands",
-		"body":"Brands have become an integral part of our daily lives. From the moment we pick up the toothbrush in the morning, we are surrounded by the brands we love. But how really aware are we about these brands? Battle of Brands(BoB) is a fun and entertaining event where creativity and thinking out of the box helps you get closer to the prize money."
+		"body":"Brands have become an integral part of our daily lives. From the moment we pick up the toothbrush in the morning, we are surrounded by the brands we love. But how really aware are we about these brands? Battle of Brands(BoB) is a fun and entertaining event where creativity and thinking out of the box helps you get closer to the prize money.",
+		"register":"https://docs.google.com/forms/d/e/1FAIpQLSc5ePkMqx4YuYL9hh3XezjIjEtpFofY16O1OcG9Xjob-6iOTA/viewform?c=0&w=1&usp=mail_form_link"
 		},
 	    {
 		"id":"biz_fin",
 		"title":"FINomenal",
-		"body":"*Rule No. 1, Never lose money. *Rule No. 2, Never forget rule No. 1. The above quote sums it all about handling finance. You might be good in handling thousands or yen thousands but can you control your nerves when you have to play with millions or sometimes billions. If yes then this will be the event to prove yourself.An event where you have to solve finance related problem which will test your number crunching ability and enthusiasm in finance management."
+		"body":"*Rule No. 1, Never lose money. *Rule No. 2, Never forget rule No. 1. The above quote sums it all about handling finance. You might be good in handling thousands or yen thousands but can you control your nerves when you have to play with millions or sometimes billions. If yes then this will be the event to prove yourself.An event where you have to solve finance related problem which will test your number crunching ability and enthusiasm in finance management.",
+		"register":"https://docs.google.com/forms/d/e/1FAIpQLSc5ePkMqx4YuYL9hh3XezjIjEtpFofY16O1OcG9Xjob-6iOTA/viewform?c=0&w=1&usp=mail_form_link"
+		},
+		{
+		"id":"biz_pitch",
+		"title":"E-Pitch",
+		"body":"The B-plan pitching competition which brings out the inner entrepreneur in you. This event offers you great amount of learning and exposure and a great chance to win prizes up to Rs 1,00,000 in cash and kind. It tests the speaking skills, creative skills and business acumen of the competitors but don't let the name of the contest scare you: We don’t want long, laboriously detailed business plans. That’s because today’s investors in early-stage companies want to see a succinct presentation of your concept and how you plan to turn it into a success. So do we.",
+		"register":"https://docs.google.com/forms/d/e/1FAIpQLSc5ePkMqx4YuYL9hh3XezjIjEtpFofY16O1OcG9Xjob-6iOTA/viewform?c=0&w=1&usp=mail_form_link"
+		},
+		{
+		"id":"biz_talks",
+		"title":"E-Talks",
+		"body":"E-Talks is the flagship talk for business enthusiasts which would see speakers from business, finance, entrepreneurship background delivering speeches on their journey/experience in their respective fields along with disseminating knowledge in their areas of expertise to the college crowd.",
+		"register":"https://docs.google.com/forms/d/e/1FAIpQLSc5ePkMqx4YuYL9hh3XezjIjEtpFofY16O1OcG9Xjob-6iOTA/viewform?c=0&w=1&usp=mail_form_link"
+		},
+		{
+		"id":"biz_stock",
+		"title":"Mock Stock",
+		"body":"A mock stock exchange competition, where the participants are allotted an equal initial fund and can earn profits by trading virtual stocks. It's a way that you can trade and gain market experience without putting your hard earned capital at risk.",
+		"register":"https://docs.google.com/forms/d/e/1FAIpQLSc5ePkMqx4YuYL9hh3XezjIjEtpFofY16O1OcG9Xjob-6iOTA/viewform?c=0&w=1&usp=mail_form_link"
 		}
     ],
+
     "sce":[
 	    {
 		"id":"sce_lw",
 		"title":"Last Word",
-		"body":"Sit back and watch in awe as eminent personalities from diverse fields discuss issues pertaining to education, entrepreneurship, and social responsibility of engineers. The panelists and the students get to exchange a good amount of ideas in the final open session on topic likes Government funding for higher education, Social Responsibility, The Indian Government’s Involvement in public higher education and many more. Media coverage (national dailies and television channels) of the event is a high possibility and the sponsors can attain nationwide publicity."
+		"body":"Sit back and watch in awe as eminent personalities from diverse fields discuss issues pertaining to education, entrepreneurship, and social responsibility of engineers. The panelists and the students get to exchange a good amount of ideas in the final open session on topic likes Government funding for higher education, Social Responsibility, The Indian Government’s Involvement in public higher education and many more. Media coverage (national dailies and television channels) of the event is a high possibility and the sponsors can attain nationwide publicity. This time, the topic of discussion would be- 'Today's youth amidst growing technology-technically sophisticated or humanly spoil?'"
 	    },
 	    {
 		"id":"sce_uw",
-		"title":"Umbrealla Walk",
-		"body":"Engineer is premiering Umbrella Walk which, as the name suggests, is a morning walk with an umbrella. Though the act is as simple as it can get, it is embedded with a deep meaning. It is Engineer’s medallion for showing support to a current socially relevant issue, thereby instilling in all empathy to our fellow beings. The sponsors will be highly deemed for being the helping hand to one of the flagship events of Engineer-16. "
-	    },
-	    {
-		"id":"sce_sparsh",
-		"title":"Sparsh",
-		"body":"Engineer is creating a shift in consciousness by organizing a tree plantation drive around NITK under the name of Sparsh. Not only is this event an initiative for a greener campus, but also a silent protest against deforestation and the increasing hazardous nature of pollution. Sparsh provides an open platform to all the nature lovers out there to volunteer for planting saplings and giving them the necessary care. A month before the event, the departments of the college will be invited to plant saplings and tend to them. "
+		"title":"Umbrella Walk",
+		"body":"Engineer is premiering 'Umbrella walk- An awareness walk on Depression' to educate people on the importance of celebrating life and overcoming one's inner pain. Though the act is as simple as it can get, it is embedded with a deep meaning. It is Engineer’s medallion for showing support to a current socially relevant issue, thereby instilling in all empathy to our fellow beings. The sponsors will be highly deemed for being the helping hand to one of the flagship events of Engineer-16. "
 	    },
 	    {
 		"id":"sce_sl",
 		"title":"Sky Lanterns",
 		"body":"The phenomenal parade of lights is definitely a treat to the eye of the beholders. Illuminating the darkest of nights and proving that light can always be found during dark times, Team Engineer sees these sky lanterns as a mark of respect or support to a social movement or cause. Last year, the lanterns were released as a tribute to the visionary, Dr.A.P.J.Abdul Kalam. "
-	    }
+	    },
+	    {
+		"id":"sce_ms",
+		"title":"Muskaan",
+		"body":"Remember that there is no happiness in having or getting but only in giving. A platform to donate, to lend a helping hand, to give wings to someone’s dreams, that’s Muskaan. We bring to you the dreams of little hearts from a nearby orphanage. Pool in your shares at our stall in the ‘Masti Lane’ and join us to make their wishes come true. "
+		}
     ],
 
     "astro":[
 	    {
 		"id":"astro_sn",
-		"title":"Stary Night",
-		"body":"Conducted on the Main Building Terrace, participants are given an opportunity to view the night sky through binoculars and a telescope. They are given a tour of the night sky, with narrations of tales of Greek Heroes of yore and why the constellations were named after them. Make sure you are present to have a chance to look at the rings of Saturn and the craters of the moon through the telescope!"
-	    },
+		"title":"Starry Night",
+		"body":"Don’t miss this opportunity to gaze through the high powered telescope and binoculars and be amazed by the magnificent rings of Saturn and the awesome craters of the Moon. Come with us, as we take you through a tour of the night sky in space and time. Locate the constellations in the sky as well as placing them among the myths of yore, and watch the skies come alive with their stories."
+		},
 	    {
 		"id":"astro_sw",
 		"title":"Star Wars",
-		"body":"All the quizzers out there, make sure you don’t miss out on this! With questions related to Astronomy, Astrophysics and the occasional popular culture references, this quiz held every Engineer is one of the flagship events of the committee."
-	    },
+		"body":"Battle it out against other quizzing enthusiasts as you bounce and pounce your way to become the Lords of the Universe. With questions related to Astronomy, Astrophysics and the occasional popular culture references, this quiz held every Engineer is one of the flagship events of the committee. Prizes Worth 3k to be won!"
+		},
 	    {
 		"id":"astro_orbiter",
 		"title":"Orbiter",
-		"body":"This is a flight simulator set up in a room along with a projector screen which has a simulation of flying a space shuttle. Walk into this room anytime during Engineer to try your hand at maneuvering a spacecraft. "
-	    },
+		"body":"Ever dreamed of flying an aircraft, or how about taking a space shuttle right to the moon? Now you can. Come on down to your very own “cockpit” and try your hand at this flight simulator. Learn how to launch, maneuver and land a spacecraft in fantastic location all across the solar system. Walk into this room anytime during Engineer to try your hand at flying a spacecraft."
+		},
 	    {
 		"id":"astro_end",
 		"title":"Endeavour",
-		"body":"In this event, participants are given a problem statement on the spot related to astronomy/astrophysics and are evaluated on their presence of mind and problem solving skills."
+		"body":"Join us as we takes you through the basics of Astrophysics, building concepts and using them to solve a problem statement given on the spot. Show your presence of mind and problem solving skills and take home exciting prizes."
+		},
+            {
+		"id":"astro_inter",
+		"title":"Interstellar",
+		"body":"3...2...1 and Launch. Who said that rocket science is hard! Employ Newton’s action and reaction to make your rocket and blast off! But make sure the payload is safe! Participants must build their rockets before the event and according the specifications in the attached problem statement.",
+		"link":"Problem Statement",
+	     "direct":"https://drive.google.com/open?id=0B5A3gE3E_ysTSjBrM2dzTERiNTlVb3BBckl0X0lZR2V2R1Br",
+	     "yes_no":"1"
 	    },
 	    {
 		"id":"astro_anta",
 		"title":"Antariksh",
-		"body":"Another flagship event, this is an exhibition set up in a classroom in the Main Building. The working models attract large crowds, the major attraction being the rover ‘Infinity’ and a weighing machine which gives you your weight on different planets. Other exhibits include a Fibonacci Cubes Arrangement and Old Documents of the club recording astronomical observations."
+		"body":"Make your way to the main building for Antariksh: Unravelling the mysteries of the universe, this exhibition is one of the flagship events of the Astronomy Committee. *Watch as the all-terrain rover ‘Infinity 2.0’ tackles the obstacles in its path. *Wondering how to lose that holiday weight, step on our weight calculator and check out your weight on the Moon, and other celestial bodies. *Watch the Satellite Tracker in action as its laser follows satellites across the sky. *Understand the basics of satellite stabilization in space using a reaction wheel. *Understand the structure and payload of the Juno space probe."
 	    }
     ],
 
@@ -163,6 +195,12 @@
 	    "link":"Problem Statement",
 	    "direct":"https://drive.google.com/open?id=0B7pLVEsfTBunN0VPMkRQNl93d3M",
 	    "yes_no":"1"
+	    },
+	    {
+		"id":"mech_ash",
+		"title":"Ashrae Quiz",
+		"body":"ASHRAE NITK will be organising a chapter level quiz competition related to Basic Thermodynamics, Heat Transfer and HVAC&R and its applications during Engineer. All students from our college are encouraged to participate in the qualifying round. Qualified Top teams would be competing in the final round during Engineer against other ASHRAE Student Chapters. Teams of two members.",
+	        "register":"https://goo.gl/forms/jA5N6Wj506fYZmom2"
 	    }
     ],
 
@@ -174,10 +212,10 @@
 	    },
 	    {
 		"id":"cv_nirvana",
-		"title":"Nirvana",
-		"body":"In a few years, the world is bound to face an impending energy crisis. Still, we have not been depleted of solutions to emend this distress and pave the way for a sustainable future. Nirvana is the perfect staging area to present your ideas on reducing energy consumption and designing sustainable buildings.",
+		"title":"Nirvahana",
+		"body":"In a few years, the world is bound to face an impending energy crisis. Still, we have not been depleted of solutions to emend this distress and pave the way for a sustainable future. Nirvahana is the perfect staging area to present your ideas on reducing energy consumption and designing sustainable buildings.",
 	    "link":"Problem Statement",
-	    "direct":"https://drive.google.com/open?id=0B9boJdznIbrMbzV5WG5SeEhLMzl2QmR3N0prOEExb1lpM0Y4https://drive.google.com/open?id=0B9boJdznIbrMZk15ZXBfRzJZTGlMUENrSjF6YnR5VEQ5Rkt3",
+	    "direct":"https://drive.google.com/open?id=0B9boJdznIbrMbzV5WG5SeEhLMzl2QmR3N0prOEExb1lpM0Y4",
 	    "yes_no":"1"
 	    },
 	    {
@@ -233,7 +271,8 @@
 		"body":"The flagship event of the committee which draws a huge crowd as well as a large pool of participants, the event requires the participants to come up with a controller built using electronic components which can manipulate the flow of water through an electrically controllable valve and the glowing of lights according to the music being played. Yes, you got it right. In layman words, participants need to make a musical fountain in which water dances to the tunes played with synchronized lighting.",  
 		"link":"Problem Statement",
 	    "direct":"https://drive.google.com/open?id=0B7pLVEsfTBunLTZ6WnpESmhmVGM",
-	    "yes_no":"1"		
+	    "yes_no":"1",
+		 "register":"https://goo.gl/forms/WmVRIkvOkJvA0z8I2"
 		  },
 	    
 	    {
@@ -242,12 +281,17 @@
 		"body":"The event which pulls a huge participation from the robotics enthusiasts, the participants are required to make an autonomous robot which can traverse through a path using the line following technique and complete the task specified in the problem statement. The team which finishes the task in the shortest time is the winner.",
 	    "link":"Problem Statement",
 	    "direct":"https://drive.google.com/open?id=0B7pLVEsfTBunOHFtd0FELXMyRGs",
-	    "yes_no":"1"
+	    "yes_no":"1",
+		 "register":"https://goo.gl/forms/peCmMSvCXIs2Drf12"
 	    },
 	    {
-		"id":"tronix_waltz",
-		"title":"Waltz",
-		"body":"This event also attracts the robotics enthusiasts wherein they are required to make an autonomous robot capable of traversing through a maze using the wall following techniques and accomplish the task as specified in the problem statement. The team whose robot completes the task successfully in the shortest time is declared the winner."
+		"id":"tronix_light",
+		"title":"Light of the Seven",
+		"body":"As the Game of Thrones intensifies and makes you clamour for your favorite king or queen, winter is coming, and days shorten and nights lengthen.Build an autonomous bot that moves towards a light source and stays at rest when no source of light is detected.",
+                "link":"Problem Statement",
+	    "direct":"https://drive.google.com/open?id=0B5A3gE3E_ysTdmhDdUc5OW5JWHM",
+	    "yes_no":"1",
+		 "register":"https://goo.gl/forms/DmtlkJnOw6J3LpZ12"
 	    },
 	    {
 		"id":"tronix_auto",
@@ -255,22 +299,33 @@
 		"body":"This is the flagship autonomous robotics design competition at Engineer which guarantees to challenge the brain buds of the participants. The teams are required to make a robot which can complete the specified task using a real-time video feed provided by an overhead camera and image processing to traverse through the arena. The team which finishes fastest is declared the winner.",
 	    "link":"Problem Statement",
 	    "direct":"https://drive.google.com/open?id=0B7pLVEsfTBunLTdoYUVjVnUzR2M",
-	    "yes_no":"1"
+	    "yes_no":"1",
+		 "register":"https://goo.gl/forms/UxKfIr7VsD5B3mN02"
 	    },
 	    {
 		"id":"tronix_sim",
 		"title":"Simplicity",
-		"body":"Convoluted problems, simple solutions, Simplicity is an event that will lead you towards attaining crowning glory while solving problems related to signal processing and its applications. Welcome to a world of higher dimensions, hidden layers and unknown patterns all bound by simple logic."
+		"body":"Convoluted problems, simple solutions, Simplicity is an event that will lead you towards attaining crowning glory while solving problems related to signal processing and its applications. Welcome to a world of higher dimensions, hidden layers and unknown patterns all bound by simple logic.",
+		 "register":"https://goo.gl/forms/p73oq5hN0v2h4uxl2"
 	    },
 	    {
 		"id":"tronix_fox",
 		"title":"Fox Hunt",
-		"body":"It is an event on the lines of the traditional English pastime involving the tracking of a fox using trained hounds. In ENGINEER we follow an electronic version of the same wherein the FOX is a radio transmitter and hounds are our communication enthusiasts having a receiver in their hands for tracking down the fox. Everything is made from the scratch and the competition starts after hands on workshop where participants are taught about the basics of communication involved. This event requires zero pre requisites and hence interests a huge lot of communication enthusiasts."
+		"body":"It is an event on the lines of the traditional English pastime involving the tracking of a fox using trained hounds. In ENGINEER we follow an electronic version of the same wherein the FOX is a radio transmitter and hounds are our communication enthusiasts having a receiver in their hands for tracking down the fox. Everything is made from the scratch and the competition starts after hands on workshop where participants are taught about the basics of communication involved. This event requires zero pre requisites and hence interests a huge lot of communication enthusiasts.",
+		 "register":"https://goo.gl/forms/GKpqokqUnB5UfSzo2"
 	    },
 	    {
 		"id":"tronix_trade",
 		"title":"Trade Off",
-		"body":"This event is designed for testing the basic circuit designing skills of the participants using limited resources and logical thinking. It involves a lot of exercise for the brain and hence attracts a great deal of electronics fanatics. The pre requisites include a basic knowledge about the working of electronic components and instruments as well as an understanding about the circuit designing."
+		"body":"This event is designed for testing the basic circuit designing skills of the participants using limited resources and logical thinking. It involves a lot of exercise for the brain and hence attracts a great deal of electronics fanatics. The pre requisites include a basic knowledge about the working of electronic components and instruments as well as an understanding about the circuit designing.",
+		 "register":"https://goo.gl/forms/BPkNYOIZCDLH167s1"
 	    }
-    ]
+    ],
+    "online":[
+	    {
+	   	"id":"online",
+		"title":"Virtual Bounty",
+		"body":"Quoting Daniel Atlas, “I want you to follow, because no matter what you think you might know, we will always be one step, three steps- seven steps ahead of you, and just when you think you're catching up, that's when we'll be right behind you. And at no time will you be anywhere other than exactly where I want you to be. So come close, get all over us because the closer you think you are, the less you'll actually see.” You wouldn’t believe what you can discover when you let your fingers walk through the internet. This online treasure hunt can be as devious and conniving as it can get. A test of common sense and a skill for “Googling” the right clue, competitors from all over the world battle it out to complete the quest hidden in the cosmic web of the Internet. Each insanely enigmatic clue has more to do than just to Google them. For each level you ascend, you won’t just want to watch, you’ll want to sift, dissect and pore over every little allusion. For Virtual Bounty being the ONLY International event of Engineer 2016, get ready on your online odyssey to crack level after level to conquer the Game of Googlers."
+	    }
+	]
 }

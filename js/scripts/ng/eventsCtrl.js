@@ -25,7 +25,7 @@
                 url: 'js/data/events.json'
             }).then(function successCallback(response) {
                 $scope.events = response.data;
-                $scope.eventTitles = ['CHEMICAL EVENTS', 'COMPUTER EVENTS', 'BUSINESS EVENTS', 'SOCIALLY CONSCIOUS ENGINNERING', 'ASTRO EVENTS', 'MECHANICAL EVENTS', 'CIVIL EVENTS', 'MATERIALS EVENTS', 'TRONIX EVENTS'];
+                $scope.eventTitles = ['CHEMICAL EVENTS', 'COMPUTER EVENTS', 'MANAGEMENT EVENTS', 'SOCIALLY CONSCIOUS ENGINNERING', 'ASTRO EVENTS', 'MECHANICAL EVENTS', 'CIVIL EVENTS', 'MATERIALS EVENTS', 'TRONIX EVENTS','ONLINE EVENTS'];
                 $('.nav-tabs').scrollingTabs();
             }, function errorCallback(response) {
                 console.log(response);
@@ -150,7 +150,7 @@
                     $('.tools').velocity('transition.slideUpIn', { delay: 600 });
                     $('.bulb').velocity('transition.expandIn', { delay: 800 });
                     $('.engineer').velocity('transition.slideDownIn', { delay: 400 });
-                } else if ($('.carousel-inner>div.active').eq(0).hasClass('matSVG')) {
+                } else if ($('.carousel-inner>div.active').eq(0).hasClass('metaSVG')) {
                     $('.molecules').velocity('transition.expandIn', { delay: 0 });
                 }
             });

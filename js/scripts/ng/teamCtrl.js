@@ -33,11 +33,21 @@
             $("#myModal").on("hidden.bs.modal", function() {
                 $('#currCmd').focus();
             });
+
             $http({
                 method: 'GET',
                 url: 'js/data/team.json'
             }).then(function successCallback(response) {
                 $scope.members = response.data.members;
+            }, function errorCallback(response) {
+                console.log(response);
+            });
+
+            $http({
+                method: 'GET',
+                url: 'js/data/committee.json'
+            }).then(function successCallback(response) {
+                $scope.committee = response.data.members;
             }, function errorCallback(response) {
                 console.log(response);
             });

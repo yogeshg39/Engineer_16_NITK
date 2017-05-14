@@ -843,7 +843,7 @@ ul.social-buttons li:last-child {
 #engiSVG{
     width:300px; height:300px; margin-left:auto; margin-right:auto;
 }
-@media(max-width:460px) {
+@media(max-width:760px) {
     .events-pg {
         padding: 0 !important;
     }
@@ -851,16 +851,28 @@ ul.social-buttons li:last-child {
         margin: 0px;
     }
     #penrose {
-        height: 300px;
-        width: 300px;
-        background-size: 90.6px;
+        height: 250px;
+        width: 250px;
+        background-size: 80.6px;
     }
     #ring {
-        width: 300px !important;
-        height: 300px !important;
+        width: 250px !important;
+        height: 250px !important;
     }
     #engi16 {
-        height:70px !important;
+        height:45px !important;
+    }
+
+    .engi-logo
+    {
+        height:25px !important;
+        margin-right: 20px !important;
+    }
+
+    .page_title
+    {
+        font-size: 14px !important;
+        padding: 0 20px 0 20px !important;
     }
 }
 @media(min-width:1400px) {

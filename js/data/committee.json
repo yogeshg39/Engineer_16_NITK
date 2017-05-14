@@ -1,0 +1,39 @@
+{
+    "members": [{
+        "name": "Rajat Shinde",
+        "img": "Rajat_Shinde.jpg",
+        "des": "Workshops Convenor"
+    },
+    {
+        "name": "Saurabh Sachan",
+        "img": "Saurabh_Sachan.jpg",
+        "des": "Tronix Committee Convenor"
+    },
+    {
+        "name": "Vignesh Moorthy",
+        "img": "Vignesh_Moorthy.JPG",
+        "des": "LSD Convenor"
+    },
+    {
+        "name": "Akankshya Kar",
+        "img": "Akankshya_Kar.jpg",
+        "des": "Corporate Hospitality Convenor"
+    },
+    {
+        "name": "Surya RaviShankaran",
+        "img": "Surya.jpg",
+        "des": "Gaming Convenor"
+    },
+    {
+        "name": "Abhishek Naval",
+        "img": "Abhishek_Naval.jpg",
+        "des": "Inaug Convenor"
+    },
+    {
+        "name": "Abhishek Tripathi",
+        "img": "Abhishek_Tripathi.jpg",
+        "des": "Engineer Press Convenor"
+    }
+    
+    ]
+}

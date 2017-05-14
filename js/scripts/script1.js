@@ -1,19 +1,51 @@
 $(window).load(function(){
 
+	var timeouts = [];	
+
+
+	$('.btn-skip').click(function()
+	{
+
+		finishAnimation();
+
+	});
+
+
+	function finishAnimation()
+	{
+
+		$('body').finish();
+		$('.rocket').finish();
+		$('.rocket1').finish();
+
+		for (var i = 0 ; i < timeouts.length ; i++) {
+		     clearTimeout(timeouts[i]);
+
+		}
+
+		$('.back1').addClass("invisible");
+		$('.back2').addClass("invisible");
+		$('.back3').addClass("invisible");
+		$('.back4').addClass("invisible");
+		$('.back5').addClass("invisible");
+		$('.rocket1').animate({
+	        height: 115}
+	    ,0,'linear');
+		$('.rocket1').css("transform", "rotate(-45deg)");
+
+	    clearInterval(interval);
+
+	    $('.btn-skip').addClass('invisible');
+
+		finalScreen();
+
+	}
+
 	var height=$(window).height()
+
 	var width=height*10.67;
-	var height=$(window).height();
-	console.log(height);
-
-	var height=$(window).height();
-	console.log(height);
-
-	var height=$(window).height();
-	console.log(height);
-
-	var height=$(window).height();
-	console.log(height);
-
+	
+	
 	console.log(width);
 	$('.background').height(height);
 	$('.background').width(width);
@@ -83,8 +115,7 @@ $(window).load(function(){
 	$('.train_fire').css('left',lengthFromLeftTrainFire);
 	$('.train_fire').css('top',lengthFromTopTrainFire);
 
-	$('#content').removeClass('invisible');
-
+	
 	var height=$(window).height();
 	console.log(height);
 	
@@ -93,7 +124,7 @@ $(window).load(function(){
 	var startTime = new Date().getTime();
 
 	
-	setInterval(function () {
+	var interval=setInterval(function () {
 
 
 				if(new Date().getTime() - startTime > 40000){
@@ -116,40 +147,59 @@ $(window).load(function(){
                     
     }, 500);
 
+	$('.newsticker').newsTicker({
+    row_height: 25,
+    max_rows: 1,
+    speed: 600,
+    direction: 'up',
+    duration: 4000,
+    autostart: 1,
+    pauseOnHover: 1
+});
 	
-
 	$('body').animate( { scrollLeft: width },60000);
 
-	setTimeout(function() {   //calls click event after a certain time
+	var timeOut1=setTimeout(function() {   //calls click event after a certain time
 	   $('.back1').addClass("invisible");
 	}, 10000);
 
-	setTimeout(function() {   //calls click event after a certain time
+	timeouts.push(timeOut1);
+
+	timeOut1=setTimeout(function() {   //calls click event after a certain time
 	   $('.back2').addClass("invisible");
 	}, 20000);
 
-	setTimeout(function() {   //calls click event after a certain time
+	timeouts.push(timeOut1);
+
+	timeOut1=setTimeout(function() {   //calls click event after a certain time
 	   $('.back3').addClass("invisible");
 	}, 30000);
 	
-	setTimeout(function() {   //calls click event after a certain time
+	timeouts.push(timeOut1);
+	
+	timeOut1=setTimeout(function() {   //calls click event after a certain time
 	   $('.back4').addClass("invisible");
 	}, 38000);
 
+	timeouts.push(timeOut1);
 
-	setTimeout(function() {   //calls click event after a certain time
+	
+	timeOut1=setTimeout(function() {   //calls click event after a certain time
 	   $('.rocket').animate({
 	        top: 50}
 	    ,3000,'linear');
 	}, 42000);
 
-	setTimeout(function() {   //calls click event after a certain time
+	timeouts.push(timeOut1);
+
+
+	timeOut1=setTimeout(function() {   //calls click event after a certain time
 	   $('.rocket1').animate({
 	        height: 115}
 	    ,3000,'linear');
 	}, 42000);
 
-
+	timeouts.push(timeOut1);
 	/*var rocketFireFinal=width/1.0599;
 	var rocketFireFinalTop=height/4.6692;
 	
@@ -176,10 +226,12 @@ $(window).load(function(){
   		$('.rocket_fire').animate({path : new $.path.bezier(bezier_params_rocket_fire)},3000,function(){changeRocketSource()});
   	}*/
 
-  	setTimeout(function() { 
+  	timeOut1=setTimeout(function() { 
 	changeRocketSource();
 	},45000);
 
+
+  	timeouts.push(timeOut1);
 
   	function changeRocketSource()
   	{
@@ -245,6 +297,7 @@ $(window).load(function(){
   		$('.station_light1').addClass("invisible");
   		$('.station_light2').addClass("invisible");
   		$('#wrapper').removeClass("invisible");
+  		$('.btn-skip').addClass('invisible');
   		//$('body').animate( { scrollLeft: 0 },0);
   		//$('.rocket').css("left",500);
   		$('.rocket').animate({path : new $.path.bezier(bezier_params_rocket_up)},5000,function(){});
@@ -253,18 +306,24 @@ $(window).load(function(){
   	}
 
 
-	setTimeout(function() {   //calls click event after a certain time
+	timeOut1=setTimeout(function() {   //calls click event after a certain time
 	   $('.train_img').animate({
 	        left: disFromLeftTrainFinal}
 	    ,10000,'linear');
 	}, 26000);
 
+	timeouts.push(timeOut1);
+
+
 	var finalFire=lengthFromLeftTrainFire+moveFireBy;
-	setTimeout(function() {   //calls click event after a certain time
+	
+	timeOut1=setTimeout(function() {   //calls click event after a certain time
 	   $('.train_fire').animate({
 	        left:finalFire }
 	    ,10000,'linear');
 	}, 26000);
+
+	timeouts.push(timeOut1);
 
 	/*setTimeout(function() {   //calls click event after a certain time
 	   $('.train_fire_gif').animate({
@@ -273,11 +332,13 @@ $(window).load(function(){
 	}, 26000);*/
 
 
-	setTimeout(function() {   //calls click event after a certain time
+	timeOut1=setTimeout(function() {   //calls click event after a certain time
 	   $('.water').animate({
 	        left: 4000}
 	    ,10000,'linear');
 	}, 16000);
+
+	timeouts.push(timeOut1);
 
 	var deerX1=width/315.52;
 	var deerY1=height/1.701;
@@ -419,9 +480,13 @@ $(window).load(function(){
 	    }
 	  }
 
-	setTimeout(function() { 
+	timeOut1=setTimeout(function() { 
 	step1();
 	},1000);
+
+	timeouts.push(timeOut1);
+
+
   	function step1()
   	{
   		$('.deer').animate({path : new $.path.bezier(bezier_params1)},500,function(){step2()});
@@ -692,10 +757,11 @@ $(window).load(function(){
 	  }
 
 	  
-	setTimeout(function() { 
+	timeOut1=setTimeout(function() { 
 	movebird1step1();
 	},1000);
 	
+	timeouts.push(timeOut1);
   	function movebird1step1()
   	{
   		$('.bird1').animate({path : new $.path.bezier(bezier_bird_params1)},2000,function(){movebird1step2()});
@@ -836,10 +902,11 @@ $(window).load(function(){
 	  }
 
 	
-	setTimeout(function() {   //calls click event after a certain time
+	timeOut1=setTimeout(function() {   //calls click event after a certain time
 	  $('.blink1').animate({path : new $.path.bezier(bezier_blink_params1)},3000,function(){blink1()});
 	}, 14000);
 
+	timeouts.push(timeOut1);
 
 	function blink1()
   	{
@@ -852,11 +919,25 @@ $(window).load(function(){
   		$('.blink1').animate({path : new $.path.bezier(bezier_blink_params3)},6000,function(){});
   	}
 
-  	setTimeout(function() {   //calls click event after a certain time
+  	timeOut1=setTimeout(function() {   //calls click event after a certain time
 	  $('.light1').removeClass('invisible');
       $('.light2').removeClass('invisible');
 	}, 26000);
 
+	timeouts.push(timeOut1);
+
+  	$('#content').removeClass('invisible');
+
+
+  	var width1=$(window).width()
+
+	if(width1<1000)
+	{
+		console.log("Small device");
+		window.location.href = "index2.html";
+		finishAnimation();
+
+	}
 
 
 });

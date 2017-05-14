@@ -1,0 +1,23 @@
+{
+    "members": [{
+        "name": "Ram Sonkar",
+        "img": "Ram_Sonkar.jpg",
+        "in": "https://www.facebook.com/ram545",
+        "email": "gyogesh0309@gmail.com",
+        "des": "Design Head"
+    },{
+        "name": "Yogesh Ghaturle",
+        "img": "yogesh.jpg",
+        "in": "https://www.facebook.com/yogesh.ghaturle",
+        "email": "gyogesh0309@gmail.com",
+        "des": "Website Lead"
+    },
+    {
+        "name": "Prajwal Kutarekar",
+        "img": "Prajwal_Kutarekar.jpg",
+        "in": "https://www.facebook.com/prajwalk27",
+        "email": "gyogesh0309@gmail.com",
+        "des": "Design Head"
+    }]
+
+}

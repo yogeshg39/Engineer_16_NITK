@@ -1,10 +1,51 @@
 ﻿<article ng-controller="teamCtrl">
     
+    <script type="text/javascript">
+        var flag=1;
+        var startTime = new Date().getTime();
+
+    
+        var interval=setInterval(function () {
+                
+                    if (flag==1) {
+                        $('.updates').css('color','#fff');
+                        
+                        
+                        flag=2;
+                    }
+                    else
+                    {
+                        $('.updates').css('color','#000');
+                        
+                        flag=1;
+                    }
+                    
+        }, 1500);
+
+
+    </script>
     <div class="container-fluid main-content-container">
-        <div class="row" style="margin-top: 60px">
-            <div class="col-lg-1 col-md-1">
+        <div class="row" style="margin-top: 20px">
+            <div class="col-lg-1 col-md-1 col-xs-1">
+                <div style="color: #fff;font-family: bit;font-size: 16px;margin-left: 16px;width: 95px;background: #0f1843;border-radius: 6px; padding: 5px 10px 5px 10px;border: 3px solid #fff;" class="updates">Updates</div>
             </div>
-            <div class="col-lg-10 col-md-10 text-center">
+
+            <div class="col-lg-8 col-md-8 col-xs-8">
+                <ul class="newsticker" style="height: 20px; overflow: hidden; color: #fff;list-style: none;margin-left: -32px;margin-top: 8px;font-size: 16px;font-weight: bold;">
+                    <li><a href="schedule.pdf" target="_blank" style="text-decoration: none">Engineer Schedule</a> is out now.</li>
+                    <li>Registeration for Events have started.</li>
+                    <li>Registeration for Workshops have begun.</li>
+                </ul>
+            </div> 
+            <div class="col-lg-3 col-md-3 col-xs-3">
+                <div style="color: #fff;font-size: 16px;border-radius: 6px; padding: 5px 10px 5px 10px;font-weight: bold;position: absolute;right:50px" ><a href="http://tinyurl.com/engineer2016reg" target="_blank" style="text-decoration: none">Register</a> for Engineer'16.</div>
+            </div>  
+        </div>
+        <div class="row" style="margin-top: 0px">
+            <div class="col-lg-1 col-md-1">
+               
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 text-center">
                 <div id="penrose" style="">
                     <div id="ring" style="">
                     </div>

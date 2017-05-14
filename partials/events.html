@@ -10,13 +10,14 @@
                     <ul class="carousel-indicators-tabs">
                     <li data-target="#myCarousel" data-slide-to="0" class="active">CHEM</li>
                     <li data-target="#myCarousel" data-slide-to="1">COMPS</li>
-                    <li data-target="#myCarousel" data-slide-to="2">BIZ</li>
+                    <li data-target="#myCarousel" data-slide-to="2">BIZWAVES</li>
                     <li data-target="#myCarousel" data-slide-to="3">SCE</li>
                     <li data-target="#myCarousel" data-slide-to="4">ASTRO</li>
                     <li data-target="#myCarousel" data-slide-to="5">MECH</li>
                     <li data-target="#myCarousel" data-slide-to="6">CIVIL</li>
                     <li data-target="#myCarousel" data-slide-to="7">MATERIALS</li>
                     <li data-target="#myCarousel" data-slide-to="8">TRONIX</li>
+                    <li data-target="#myCarousel" data-slide-to="9">ONLINE</li>
                 </ul>
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
@@ -35,7 +36,8 @@
                                       <div role="tabpanel" ng-repeat="event in eventgrp track by $index" ng-class="$index == 0 ? 'active' : '' " id="{{::event.id}}" class="tab-pane">
                                         
                                         <p class="events_body">{{event.body}}</p>
-                                        <a href="{{event.direct}}" ng-show="{{event.yes_no}}"><button class="btn btn-default">{{event.link}}</button></a>
+                                        <a href="{{event.direct}}" ng-show="{{event.yes_no}}" target="_blank"><button class="btn btn-default btn-primary" style="margin-right: 20px">{{event.link}}</button></a>
+                                        <a href="{{event.register}}" ng-show="{{event.register}}" target="_blank"><button class="btn btn-default btn-primary" >Register</button></a>
                                       </div>
                                     </div>
                                 </div>
